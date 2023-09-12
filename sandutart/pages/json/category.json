@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "denumire": "Cărți de vizită",
+        "image": "/sandutart/pages/image/carte_de_vizita.jpg"
+    },
+    {
+        "id": 2,
+        "denumire": "Tipărituri",
+        "image": "/sandutart/pages/image/tiparituri.png"
+    },
+    {
+        "id": 3,
+        "denumire": "Broșuri, cărți, cataloage",
+        "image": "/sandutart/pages/image/brosuri_carti.jpg"
+    },
+    {
+        "id": 4,
+        "denumire": "Carnete",
+        "image": "/sandutart/pages/image/carnete.jpg"
+    },
+    {
+        "id": 5,
+        "denumire": "Etichete și autocolante",
+        "image": "/sandutart/pages/image/etichete.jpg"
+    },
+    {
+        "id": 6,
+        "denumire": "Stickere PVC",
+        "image": "/sandutart/pages/image/stikere.jpg"
+    },
+    {
+        "id": 7,
+        "denumire": "Foto printing",
+        "image": "/sandutart/pages/image/printing.jpg"
+    },
+    {
+        "id": 8,
+        "denumire": "Materiale Marketing",
+        "image": "/sandutart/pages/image/marketing.png"
+    },
+    {
+        "id": 9,
+        "denumire": "Shopping bags",
+        "image": "/sandutart/pages/image/shopping.jpg"
+    },
+    {
+        "id": 10,
+        "denumire": "Textile",
+        "image": "/sandutart/pages/image/textile.png"
+    },
+    {
+        "id": 11,
+        "denumire": "Standuri Expoziționale",
+        "image": "/sandutart/pages/image/standuri.png"
+    },
+    {
+        "id": 12,
+        "denumire": "Printuri mari",
+        "image": "/sandutart/pages/image/printuri.png"
+    },
+    {
+        "id": 13,
+        "denumire": "Producție publicitară",
+        "image": "/sandutart/pages/image/publicitate.png"
+    },
+    {
+        "id": 14,
+        "denumire": "POS-materiale",
+        "image": "/sandutart/pages/image/pos.png"
+    },
+    {
+        "id": 15,
+        "denumire": "Servicii",
+        "image": "/sandutart/pages/image/servicii.png"
+    },
+    {
+        "id": 16,
+        "denumire": "Design grafic",
+        "image": "/sandutart/pages/image/design.png"
+    }
+]
