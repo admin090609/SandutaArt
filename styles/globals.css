@@ -24,6 +24,32 @@ body {
   position: absolute;
 }
 
+/* Slider.css */
+.swiper-button-next {
+  top: 50%; /* Center the arrows vertically within the slide */
+  transform: translateX(-450%);
+}
+
+.swiper-button-prev {
+  top: 50%; /* Center the arrows vertically within the slide */
+  transform: translateX(450%);
+}
+
+@media (max-width: 768px) {
+  .swiper-button-next, .swiper-button-prev {
+    transform: translateX(0);
+    right: 10px; /* Position the arrows on the right side of the slide */
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiper-button-next, .swiper-button-prev {
+    transform: translateX(0);
+  }
+}
+
+
+
 #checkbox {
   display: none;
 }
