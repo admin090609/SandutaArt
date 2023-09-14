@@ -6,13 +6,18 @@ body {
   background-color: white;
 }
 
+.search_bar {
+  padding-left: 50px;
+  font-weight: 500;
+  color: black;
+  font-size: 16px;
+}
+
 .search_bar::placeholder {
   font-weight: 500;
-  /* Equivalent to font-medium */
   color: black;
-  /* Text color in black */
   font-size: 16px;
   text-align: left;
-  left: 20px;
+  left: 50px;
   position: absolute;
 }
