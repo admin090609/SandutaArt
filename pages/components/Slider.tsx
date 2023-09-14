@@ -8,7 +8,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 export default function Slider() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center mt-10">
       <Swiper
         cssMode={true}
         navigation={true}
