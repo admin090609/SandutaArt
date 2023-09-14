@@ -8,7 +8,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 export default function Slider() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center mt-10">
       <Swiper
         cssMode={true}
         navigation={true}
@@ -20,7 +20,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className="flex justify-center items-center h-full">
-            <div className="w-[70%] text-center">
+            <div className="w-[100%] sm:w-[70%] text-center">
               <Image
                 src="/images/banner.JPG"
                 alt="banner"
@@ -34,7 +34,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="flex justify-center items-center h-full">
-            <div className="w-[70%] text-center">
+            <div className="w-[100%] sm:w-[70%] text-center">
               <Image
                 src="/images/banner.JPG"
                 alt="banner"
