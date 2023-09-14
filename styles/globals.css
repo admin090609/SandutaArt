@@ -5,3 +5,14 @@
 body {
   background-color: white;
 }
+
+.search_bar::placeholder {
+  font-weight: 500;
+  /* Equivalent to font-medium */
+  color: black;
+  /* Text color in black */
+  font-size: 16px;
+  text-align: left;
+  left: 20px;
+  position: absolute;
+}

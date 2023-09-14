@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <>
-      <div className="flex justify-center mt-6">
+      <div className="flex justify-center mt-6 justify-between max-w-[1240px]">
         <div className="flex justify-center items-center">
           <Image
             src="/images/logo_alb.jpg"
@@ -32,23 +32,26 @@ export default function Nav() {
               </p>
             </div>
           </Link>
-          <Link href="tel:+37360688733" className="flex items-center ml-[20px]">
+          <Link
+            href="tel:+37369111401"
+            className="flex items-center ml-[44px] justify-center"
+          >
             <Image
-              src="/images/location.png"
-              alt="Location"
-              width="35"
+              src="/images/phone.png"
+              alt="Phone"
+              width="27"
               height="0"
-              className="w-[35px] h-[35px]"
+              className="w-[27px] h-[27px]"
             />
-            <div>
-              <p className="font-semibold text-black text-[18px] leading-5">
-                Ialoveni
-              </p>
-              <p className="font-semibold text-black text-[16px] leading-5">
-                Alexandru cel Bun 78/1
-              </p>
-            </div>
+            <p className="font-semibold text-black text-[24px]">069 111 401</p>
           </Link>
+        </div>
+        <div className="flex items-center">
+          <input
+            type="text"
+            placeholder="Caută..."
+            className="search_bar bg-[#f3f3f3] rounded-[3px] border border-solid border-[#dadada] w-[250px] h-[50px]"
+          />
         </div>
       </div>
     </>
