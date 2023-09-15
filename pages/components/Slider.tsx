@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay, Mousewheel, Keyboard } from 'swiper/modules';
 
 export default function Slider() {
   const [showNavigation, setShowNavigation] = useState(true);
@@ -43,8 +43,12 @@ export default function Slider() {
           navigation={showNavigation}
           pagination={true}
           mousewheel={true}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
           keyboard={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Pagination, Autoplay, Mousewheel, Keyboard]}
           className="mySwiper"
         >
           <SwiperSlide>
