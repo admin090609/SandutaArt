@@ -76,85 +76,87 @@ export default function Nav() {
               className="search_bar bg-[#f3f3f3] rounded-[3px] border border-solid border-[#dadada] hidden sm:block sm:w-[175px] lg:w-[250px] h-[50px]"
             />
           </div>
-            <Link href="/cart.tsx">
-              <Image
-                src="/images/cart.png"
-                alt="Cart"
-                width="35"
-                height="0"
-                className="w-[35px] h-[35px] ml-4 mr-4"
-              />
-            </Link>
-            <div className="flex items-center lg:hidden">
-              <input
-                id="checkbox"
-                type="checkbox"
-                className="hidden"
-                checked={nav}
-                onChange={handleNav}
-              />
-              <label
-                className={`toggle ${nav ? "active" : ""}`}
-                htmlFor="checkbox"
-              >
-                <div id="bar1" className="bars"></div>
-                <div id="bar2" className="bars"></div>
-                <div id="bar3" className="bars"></div>
-              </label>
-              <div className={`mobile-menu ${nav ? "active" : ""}`}>
-                <div className="block">
-                  <Image
-                    src="/images/search.png"
-                    width="25"
-                    height="0"
-                    className="w-[25px] h-[25px] relative sm:absolute mt-1 sm:mt-3.5 ml-0 lg:ml-4"
-                    alt="Search"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Caută..."
-                    className="search_bar bg-[#f3f3f3] rounded-[3px] border border-solid border-[#dadada] hidden sm:block sm:w-[175px] lg:w-[250px] h-[50px]"
-                  />
-                </div>
-                <Link className="font-bold text-xl mt-4" href="/">
+          <Link href="/cart.tsx">
+            <Image
+              src="/images/cart.png"
+              alt="Cart"
+              width="35"
+              height="0"
+              className="w-[35px] h-[35px] ml-4 mr-4"
+            />
+          </Link>
+          <div className="flex items-center lg:hidden">
+            <input
+              id="checkbox"
+              type="checkbox"
+              className="hidden"
+              checked={nav}
+              onChange={handleNav}
+            />
+            <label
+              className={`toggle ${nav ? "active" : ""}`}
+              htmlFor="checkbox"
+            >
+              <div id="bar1" className="bars"></div>
+              <div id="bar2" className="bars"></div>
+              <div id="bar3" className="bars"></div>
+            </label>
+            <div className={`mobile-menu ${nav ? "active" : ""}`}>
+              <div className="block">
+                <Image
+                  src="/images/search.png"
+                  width="25"
+                  height="0"
+                  className="w-[25px] h-[25px] relative sm:absolute mt-1 sm:mt-3.5 ml-0 lg:ml-4"
+                  alt="Search"
+                />
+                <input
+                  type="text"
+                  placeholder="Caută..."
+                  className="search_bar bg-[#f3f3f3] rounded-[3px] border border-solid border-[#dadada] hidden sm:block sm:w-[175px] lg:w-[250px] h-[50px]"
+                />
+              </div>
+              <div className="relative transition-all duration-300 ease-in-out">
+                <Link className="font-bold text-xl mt-4" href="/produse">
                   Produse
                 </Link>
-                <Link
-                  className="font-bold text-xl mt-4"
-                  href="/materiale_marketing"
-                >
-                  Materiale Marketing
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/textile">
-                  Textile
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/standuri">
-                  Standuri Expozitionale
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/printuri_mari">
-                  Printuri Mari
-                </Link>
-                <Link
-                  className="font-bold text-xl mt-4"
-                  href="/productie_publicitara"
-                >
-                  Producție Publicitară
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/servicii">
-                  Servicii
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/contacte">
-                  Contacte
-                </Link>
-                <Link className="font-bold text-xl mt-4" href="/faq">
-                  FAQ
-                </Link>
               </div>
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/materiale_marketing"
+              >
+                Materiale Marketing
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/textile">
+                Textile
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/standuri">
+                Standuri Expozitionale
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/printuri_mari">
+                Printuri Mari
+              </Link>
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/productie_publicitara"
+              >
+                Producție Publicitară
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/servicii">
+                Servicii
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/contacte">
+                Contacte
+              </Link>
+              <Link className="font-bold text-xl mt-4" href="/faq">
+                FAQ
+              </Link>
+            </div>
           </div>
         </div>
       </div>
       <div className="hidden lg:flex justify-center items-center p-6 text-center leading-5">
-        <Link className="font-semibold font-xl mr-8" href="/">
+        <Link className="font-semibold font-xl mr-8" href="/produse">
           Produse
         </Link>
         <Link
