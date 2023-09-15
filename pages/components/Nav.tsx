@@ -94,9 +94,15 @@ export default function Nav() {
               <div id="bar3" className="bars"></div>
             </label>
             <div className={`mobile-menu ${nav ? "active" : ""}`}>
-              <Link className="font-bold text-xl mt-8" href="/">
-                Produse
-              </Link>
+              <details>
+                <summary>
+                  <Link className="font-bold text-xl mt-8" href="/">
+                    Produse
+                  </Link>
+                </summary>
+                <p>Carti</p>
+                <p>Tiparituri</p>
+              </details>
               <Link
                 className="font-bold text-xl mt-8"
                 href="/materiale_marketing"
