@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background-color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .search_bar {
@@ -25,30 +25,42 @@ body {
 }
 
 /* Slider.css */
+.mySwiper .swiper-button-next, .mySwiper
+.swiper-button-prev {
+  color: black;
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 50%; /* Pentru a face butoanele rotunde */
+  border: 3.5px solid #dddddd;
+  top: 50%;
+  transform: translateY(-50%); /* Folosim translateY pentru a centra butoanele vertical */
+  margin-top: 0; /* Eliminăm marginul de sus pentru a păstra butoanele la aceeași înălțime */
+}
+
 .swiper-button-next {
-  top: 50%; /* Center the arrows vertically within the slide */
-  transform: translateX(-450%);
+  transform: translateX(-370%); /* Mușcăm butonul "next" la stânga pentru a lăsa spațiu între ele */
 }
 
 .swiper-button-prev {
-  top: 50%; /* Center the arrows vertically within the slide */
-  transform: translateX(450%);
+  transform: translateX(270%); /* Mușcăm butonul "prev" la dreapta pentru a lăsa spațiu între ele */
 }
 
+
+
 @media (max-width: 768px) {
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     transform: translateX(0);
     right: 10px; /* Position the arrows on the right side of the slide */
   }
 }
 
 @media (max-width: 1024px) {
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     transform: translateX(0);
   }
 }
-
-
 
 #checkbox {
   display: none;
@@ -58,16 +70,16 @@ body {
   z-index: 11;
   right: 0;
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-right: 10px;
   justify-content: center;
-  gap: 10px;
-  transition-duration: .5s;
+  gap: 7px;
+  transition-duration: 0.5s;
 }
 
 .bars {
@@ -78,7 +90,7 @@ body {
 }
 
 #bar2 {
-  transition-duration: .8s;
+  transition-duration: 0.8s;
 }
 
 #bar1 {
@@ -89,30 +101,30 @@ body {
   width: 75%;
 }
 
-#checkbox:checked+.toggle .bars {
+#checkbox:checked + .toggle .bars {
   position: absolute;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle #bar2 {
+#checkbox:checked + .toggle #bar2 {
   transform: scaleX(0);
-  transition-duration: .1s;
+  transition-duration: 0.1s;
 }
 
-#checkbox:checked+.toggle #bar1 {
+#checkbox:checked + .toggle #bar1 {
   width: 100%;
   transform: rotate(45deg);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle #bar3 {
+#checkbox:checked + .toggle #bar3 {
   width: 100%;
   transform: rotate(-45deg);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle {
-  transition-duration: .5s;
+#checkbox:checked + .toggle {
+  transition-duration: 0.5s;
   transform: rotate(180deg);
 }
 
