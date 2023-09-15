@@ -1,78 +1,103 @@
-import React, { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import React, { useRef, useState, useEffect  } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Image from 'next/image';
+
+
+// import required modules
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 export default function Slider() {
-  const swiperRef = useRef<typeof Swiper | null>(null); // Specificăm tipul referinței ca Swiper | null
+  const [showNavigation, setShowNavigation] = useState(true);
 
-  const goPrev = () => {
-    if (swiperRef.current && swiperRef.current.swiper) { // Accesăm swiper-ul folosind .swiper
-      swiperRef.current.swiper.slidePrev();
-    }
-  };
+  useEffect(() => {
+    // Verifică lățimea ecranului și setează showNavigation în funcție de rezoluție
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setShowNavigation(false); // Dacă ecranul este mai mic sau egal cu 768px, ascunde navigarea
+      } else {
+        setShowNavigation(true); // Altfel, afișează navigarea
+      }
+    };
 
-  const goNext = () => {
-    if (swiperRef.current && swiperRef.current.swiper) { // Accesăm swiper-ul folosind .swiper
-      swiperRef.current.swiper.slideNext();
-    }
-  };
+    // Adaugă un ascultător pentru redimensionarea ferestrei
+    window.addEventListener('resize', handleResize);
 
+    // Inițializare pentru lățimea curentă a ecranului
+    handleResize();
+
+    // Dezactivează ascultătorul când componenta este dezmontată
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
-    <div className="relative mt-10">
-      <Swiper
-        cssMode={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-        ref={swiperRef}
-      >
-        <SwiperSlide>
-          <div className="flex justify-center items-center h-full">
-            <div className="w-[100%] sm:w-[70%] text-center">
-              <Image
-                src="/images/banner.JPG"
-                alt="banner"
-                width={100}
-                height={100}
-                layout="responsive"
-                className="border border-[#B1B1B1] inline-block"
-              />
+      <div className="flex justify-center items-center mt-10">
+        <Swiper
+          cssMode={true}
+          navigation={showNavigation}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div className="flex justify-center items-center h-full">
+              <div className="w-[100%] lg:w-[70%] text-center">
+                <div className="w-[100%] text-center">
+                  <Image
+                    src="/images/banner.JPG"
+                    alt="banner"
+                    width={100}
+                    height={100}
+                    layout="responsive"
+                    className="border border-[#B1B1B1] inline-block"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="flex justify-center items-center h-full">
-            <div className="w-[100%] sm:w-[70%] text-center">
-              <Image
-                src="/images/banner.JPG"
-                alt="banner"
-                width={100}
-                height={100}
-                layout="responsive"
-                className="border border-[#B1B1B1] inline-block"
-              />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex justify-center items-center h-full">
+              <div className="w-[100%] lg:w-[70%] text-center">
+                <div className="w-[100%] text-center">
+                  <Image
+                    src="/images/banner.JPG"
+                    alt="banner"
+                    width={100}
+                    height={100}
+                    layout="responsive"
+                    className="border border-[#B1B1B1] inline-block"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-      <div onClick={goPrev}>
-        <Image
-          src="/images/arrow.png"
-          width={100}
-          height={100}
-          alt="Previous"
-        className="rotate-180"
-        />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex justify-center items-center h-full">
+              <div className="w-[100%] lg:w-[70%] text-center">
+                <div className="w-[100%] text-center">
+                  <Image
+                    src="/images/banner.JPG"
+                    alt="banner"
+                    width={100}
+                    height={100}
+                    layout="responsive"
+                    className="border border-[#B1B1B1] inline-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
-      <div onClick={goNext}>
-        <Image src="/images/arrow.png" width={100} height={100} alt="Next" />
-      </div>
-    </div>
   );
 }
