@@ -24,29 +24,27 @@ body {
   position: absolute;
 }
 
- .swiper-button-next {
+.swiper-button-next {
   background: #f3f3f3;
   background-image: url(/images/arrow.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 60%;
   background-position: center;
   padding: 20px;
   border-radius: 50%; /* Pentru a face butoanele rotunde */
   border: 3.5px solid #dddddd;
-  top: 50%;
   transform: translateY(-50%); /* Folosim translateY pentru a centra butoanele vertical */
   margin-top: 0; /* Eliminăm marginul de sus pentru a păstra butoanele la aceeași înălțime */
 }
-.swiper-button-prev{
+.swiper-button-prev {
   background: #f3f3f3;
-  background-image: url(/images/arrow.png);
+  background-image: url(/images/prev.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 200%;
   background-position: center;
   padding: 20px;
   border-radius: 50%; /* Pentru a face butoanele rotunde */
   border: 3.5px solid #dddddd;
-  top: 50%;
   transform: translateY(-50%); /* Folosim translateY pentru a centra butoanele vertical */
   margin-top: 0; /* Eliminăm marginul de sus pentru a păstra butoanele la aceeași înălțime */
 }
@@ -67,13 +65,23 @@ body {
   transform: translateX(270%); /* Mușcăm butonul "prev" la dreapta pentru a lăsa spațiu între ele */
 }
 
-
+.mySwiper .swiper-pagination-bullet {
+  background-color: white;
+  border: 2px solid black;
+  width: 10px;
+  height: 10px;
+}
 
 @media (max-width: 768px) {
   .swiper-button-next,
   .swiper-button-prev {
-    transform: translateX(0);
-    right: 10px; /* Position the arrows on the right side of the slide */
+    background-image: none;
+    background: none;
+    border: none;
+  }
+  .mySwiper .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
   }
 }
 
