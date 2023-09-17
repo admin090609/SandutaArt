@@ -82,7 +82,7 @@ export default function Nav() {
               className="search_bar bg-[#f3f3f3] rounded-[3px] border border-solid border-[#dadada] hidden sm:block sm:w-[175px] lg:w-[250px] h-[50px]"
             />
           </div>
-          <Link href="/cart.tsx">
+          <Link href="/cart">
             <Image
               src="/images/cart.png"
               alt="Cart"

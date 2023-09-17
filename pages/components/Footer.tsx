@@ -47,7 +47,7 @@ const Footer = () => {
                   height={30}
                 />
               </Link>
-              <Link href="https://msng.link/o?37369111401=tel">
+              <Link href="https://msng.link/o?37369111401=tg">
                 <Image
                   src="/images/telegram.png"
                   alt=""
@@ -133,12 +133,6 @@ const Footer = () => {
             href="/printuri"
           >
             Printuri Mari
-          </Link>
-          <Link
-            className="text-left font-semibold text-[16px] mb-1"
-            href="/publicitara"
-          >
-            Producție Publicitară
           </Link>
           <Link
             className="text-left font-semibold text-[16px] mb-1"
