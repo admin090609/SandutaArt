@@ -97,8 +97,7 @@ const Footer = () => {
             />
             <div>
               <p className="font-semibold text-sm">
-                Ialoveni <br />
-                Alexandru cel Bun 78/1
+                Ialoveni, Alexandru cel Bun 78/1
               </p>
             </div>
           </Link>
