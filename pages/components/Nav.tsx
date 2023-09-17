@@ -139,12 +139,6 @@ export default function Nav() {
               <Link className="font-bold text-xl mt-4" href="/printuri">
                 Printuri Mari
               </Link>
-              <Link
-                className="font-bold text-xl mt-4"
-                href="/publicitara"
-              >
-                Producție Publicitară
-              </Link>
               <Link className="font-bold text-xl mt-4" href="/servicii">
                 Servicii
               </Link>
@@ -159,30 +153,130 @@ export default function Nav() {
         </div>
       </div>
       <div className="hidden lg:flex justify-center items-center p-6 text-center leading-5">
-        <Link className="font-semibold font-xl mr-8" href="/produse">
-          Produse
-        </Link>
-        <Link className="font-semibold font-xl mr-8" href="/materiale">
-          Materiale Marketing
-        </Link>
-        <Link className="font-semibold font-xl mr-8" href="/textile">
-          Textile
-        </Link>
-        <Link className="font-semibold font-xl mr-8" href="/standuri">
-          Standuri Expozitionale
-        </Link>
-        <Link className="font-semibold font-xl mr-8" href="/printuri">
-          Printuri Mari
-        </Link>
-        <Link
-          className="font-semibold font-xl mr-8"
-          href="/publicitara"
-        >
-          Producție Publicitară
-        </Link>
-        <Link className="font-semibold font-xl mr-8" href="/servicii">
-          Servicii
-        </Link>
+        <div className="dropdown">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/produse">
+            Produse
+          </Link>
+          <div className="dropdown-content items-start">
+            <Link className="ml-6" href="">
+              Cărți de vizită
+            </Link>
+            <Link className="ml-6" href="">
+              Tipărituri
+            </Link>
+            <Link className="ml-6" href="">
+              Broșuri, Cărți, Cataloage
+            </Link>
+            <Link className="ml-6" href="">
+              Carnete
+            </Link>
+            <Link className="ml-6" href="">
+              Etichete și Autocolante
+            </Link>
+            <Link className="ml-6" href="">
+              Stickere PVC
+            </Link>
+            <Link className="ml-6" href="">
+              Foto Printing
+            </Link>
+            <Link className="ml-6" href="">
+              Shopping Bags
+            </Link>
+            <Link className="ml-6" href="">
+              POS-materiale
+            </Link>
+            <Link className="ml-6" href="">
+              Design Grafic
+            </Link>
+          </div>
+        </div>
+        <div className="dropdown">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/marketing"
+          >
+            Materiale Marketing
+          </Link>
+          <div className="dropdown-content">
+            <Link href="">Pixuri Eco</Link>
+            <Link href="">Pixuri Metalice</Link>
+            <Link href="">Pixuri din plastic</Link>
+            <Link href="">Sticle și Butelii</Link>
+            <Link href="">Termosuri și Căni termice</Link>
+            <Link href="">Căni cu logo</Link>
+            <Link href="">USB Flash Drive</Link>
+            <Link href="">Brelocuri</Link>
+            <Link href="">Accesorii pentru oficiu</Link>
+            <Link href="">Lanyarduri personalizate</Link>
+            <Link href="">Ecusoane și accesorii</Link>
+            <Link href="">Agende 2024</Link>
+            <Link href="">Personalizare agende</Link>
+            <Link href="">Genți și călătorii</Link>
+            <Link href="">Umbrele</Link>
+            <Link href="">Stegulețe și fanioane</Link>
+            <Link href="">Suvenire și cadouri corporative</Link>
+          </div>
+        </div>
+        <div className="dropdown">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/textile">
+            Textile
+          </Link>
+          <div className="dropdown-content">
+            {" "}
+            <Link href="">Tricouri simple</Link>
+            <Link href="">Tricouri Polo</Link>
+            <Link href="">Hanorace</Link>
+            <Link href="">Chipiuri</Link>
+            <Link href="">Torbe Eco</Link>
+          </div>
+        </div>
+        <div className="dropdown">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/standuri">
+            Standuri Expozitionale
+          </Link>
+          <div className="dropdown-content">
+            <Link href="">Roll-Up Banner Standard</Link>
+            <Link href="">Roll-Up Banner Premium</Link>
+            <Link href="">Roll-Up Banner cu 2 fețe</Link>
+            <Link href="">Totem textil</Link>
+            <Link href="">X-Banner Econom</Link>
+            <Link href="">X-Banner Premium</Link>
+            <Link href="">People stopper (A-Stand)</Link>
+            <Link href="">People stopper Double Frame</Link>
+          </div>
+        </div>
+        <div className="dropdown">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/printuri">
+            Printuri Mari
+          </Link>
+          <div className="dropdown-content">
+            <Link href="">Autocolante</Link>
+            <Link href="">Bannere</Link>
+            <Link href="">Tablouri Canvas și Multicanvas</Link>
+            <Link href="">Plăcuțe personalizate</Link>
+            <Link href="">Plăcuțe oficiu</Link>
+            <Link href="">Plăcuțe firmă</Link>
+            <Link href="">Panouri Informaționale</Link>
+            <Link href="">Rame-click</Link>
+          </div>
+        </div>
+        <div className="dropdown">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/servicii">
+            Servicii
+          </Link>
+          <div className="dropdown-content">
+            <Link href="">Transfer termic cu folie flex</Link>
+            <Link href="">Transfer termic pe chipiuri</Link>
+            <Link href="">Transfer termic pe umbrele</Link>
+            <Link href="">Sublimare pe textil</Link>
+            <Link href="">Transfer termic pe landyarduri</Link>
+            <Link href="">Sublimare pe landyarduri</Link>
+            <Link href="">Tipar UV pe suvenire</Link>
+            <Link href="">Laminare plic</Link>
+            <Link href="">Laminare în rolă</Link>
+            <Link href="">Scanner A4/A3</Link>
+          </div>
+        </div>
         <Link className="font-semibold font-xl mr-8" href="/contacte">
           Contacte
         </Link>

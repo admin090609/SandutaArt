@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Slider from "./components/Slider";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +9,7 @@ export default function Home() {
       <Slider />
       <hr className="hidden lg:block lg:max-w-[60%] mt-10 mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
       <h1 className="text-center font-bold text-3xl mt-10">PRODUSE</h1>
-      <div className="flex justify-center max-w-[960px] mt-5 mx-auto mb-75  flex-wrap">
+      <div className="flex justify-center max-w-[960px] mt-5 mx-auto mb-75 flex-wrap">
         <div className="product-card">
           <Link href="/marketing">
             <Image
@@ -113,7 +114,7 @@ export default function Home() {
         }
       `}</style>
 
-      <div className="max-w-[70%] m-auto font-semibold ">
+      <div className="max-w-[70%] m-auto">
         <h1 className="text-start font-bold text-3xl mt-10 mb-5">Despre Noi</h1>
         <p>
           Cu pasiune pentru imprimarea de calitate și o devotare continuă pentru
@@ -171,7 +172,6 @@ export default function Home() {
         </p>
       </div>
       <hr className="hidden lg:block lg:max-w-[60%] mt-10 mb-10 border-2 rounded-xl items-center justify-center m-auto  border-[#B1B1B1]" />
-
     </>
   );
 }
