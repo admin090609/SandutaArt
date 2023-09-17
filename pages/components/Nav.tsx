@@ -11,13 +11,16 @@ export default function Nav() {
     <>
       <div className="flex justify-center mt-6 justify-between items-center max-w-[1240px] m-auto">
         <div className="flex justify-center items-center">
-          <Image
-            src="/images/logo_alb.jpg"
-            alt="Logo"
-            width="120"
-            height="120"
-            className="hidden lg:block"
-          />
+          <Link href="/">
+            <Image
+              src="/images/logo_alb.jpg"
+              alt="Logo"
+              width="120"
+              height="120"
+              className="hidden lg:block"
+            />
+          </Link>
+
           <Link
             href="https://www.google.com/maps/place/Sanduta+Art/@46.946888,28.7743665,15z/data=!4m6!3m5!1s0x40c97f77a5797f33:0x44dde14e3f8587d2!8m2!3d46.946888!4d28.7743665!16s%2Fg%2F11n7k4g97z?hl=en&entry=ttu"
             className="flex items-center ml-0 lg:ml-[20px]"
@@ -54,13 +57,16 @@ export default function Nav() {
             </p>
           </Link>
         </div>
-        <Image
-          src="/images/logo_alb.jpg"
-          alt="Logo"
-          width="120"
-          height="120"
-          className="lg:hidden block"
-        />
+        <Link href="/">
+          <Image
+            src="/images/logo_alb.jpg"
+            alt="Logo"
+            width="120"
+            height="120"
+            className="lg:hidden block"
+          />
+        </Link>
+
         <div className="flex items-center">
           <div className="hidden lg:block">
             <Image
@@ -121,10 +127,7 @@ export default function Nav() {
                   Produse
                 </Link>
               </div>
-              <Link
-                className="font-bold text-xl mt-4"
-                href="/materiale_marketing"
-              >
+              <Link className="font-bold text-xl mt-4" href="/marketing">
                 Materiale Marketing
               </Link>
               <Link className="font-bold text-xl mt-4" href="/textile">
@@ -133,12 +136,12 @@ export default function Nav() {
               <Link className="font-bold text-xl mt-4" href="/standuri">
                 Standuri Expozitionale
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/printuri_mari">
+              <Link className="font-bold text-xl mt-4" href="/printuri">
                 Printuri Mari
               </Link>
               <Link
                 className="font-bold text-xl mt-4"
-                href="/productie_publicitara"
+                href="/publicitara"
               >
                 Producție Publicitară
               </Link>
@@ -159,10 +162,7 @@ export default function Nav() {
         <Link className="font-semibold font-xl mr-8" href="/produse">
           Produse
         </Link>
-        <Link
-          className="font-semibold font-xl mr-8"
-          href="/materiale_marketing"
-        >
+        <Link className="font-semibold font-xl mr-8" href="/materiale">
           Materiale Marketing
         </Link>
         <Link className="font-semibold font-xl mr-8" href="/textile">
@@ -171,12 +171,12 @@ export default function Nav() {
         <Link className="font-semibold font-xl mr-8" href="/standuri">
           Standuri Expozitionale
         </Link>
-        <Link className="font-semibold font-xl mr-8" href="/printuri_mari">
+        <Link className="font-semibold font-xl mr-8" href="/printuri">
           Printuri Mari
         </Link>
         <Link
           className="font-semibold font-xl mr-8"
-          href="/productie_publicitara"
+          href="/publicitara"
         >
           Producție Publicitară
         </Link>
@@ -190,7 +190,7 @@ export default function Nav() {
           FAQ
         </Link>
       </div>
-      <hr className="hidden lg:block lg:max-w-[80%] mt-4 border-2 rounded-xl items-center justify-center m-auto" />
+      <hr className="hidden lg:block lg:max-w-[60%] mt-4 border-2 rounded-xl items-center justify-center m-auto mb-20 border-[#B1B1B1]" />
     </>
   );
 }
