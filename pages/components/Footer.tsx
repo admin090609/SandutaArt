@@ -97,7 +97,8 @@ const Footer = () => {
             />
             <div>
               <p className="font-semibold text-sm">
-                Ialoveni Alexandru cel Bun 78/1
+                Ialoveni <br />
+                Alexandru cel Bun 78/1
               </p>
             </div>
           </Link>
@@ -105,84 +106,81 @@ const Footer = () => {
         <div className="flex flex-col">
           <h1 className="text-xl font-bold text-start mb-3">Pagini</h1>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/produse"
           >
             Produse
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/marketing"
           >
             Materiale Marketing
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/textile"
           >
             Textile
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/standuri"
           >
             Standuri Expozitionale
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/printuri"
           >
             Printuri Mari
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/servicii"
           >
             Servicii
           </Link>
           <Link
-            className="text-left font-semibold text-[16px] mb-1"
+            className="text-left font-medium text-[16px] mb-1"
             href="/contacte"
           >
             Contacte
           </Link>
-          <Link
-            className="text-left font-semibold text-[16px] mb-1"
-            href="/faq"
-          >
+          <Link className="text-left font-medium text-[16px] mb-1" href="/faq">
             FAQ
           </Link>
         </div>
         <div className="flex flex-col">
           <h1 className="text-xl font-bold text-start mb-3">Categorii</h1>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Cărți de vizită
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Tipărituri
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Broșuri, cărți, cataloage
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Carnete
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Etichete și autocolante
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Stichere PVC
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Foto Printing
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Shopping Bags
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             POS-materiale
           </Link>
-          <Link className="text-left font-semibold text-[16px] mb-1" href="/">
+          <Link className="text-left font-medium text-[16px] mb-1" href="/">
             Design Grafic
           </Link>
         </div>

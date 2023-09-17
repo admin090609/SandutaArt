@@ -197,84 +197,180 @@ export default function Nav() {
           >
             Materiale Marketing
           </Link>
-          <div className="dropdown-content">
-            <Link href="">Pixuri Eco</Link>
-            <Link href="">Pixuri Metalice</Link>
-            <Link href="">Pixuri din plastic</Link>
-            <Link href="">Sticle și Butelii</Link>
-            <Link href="">Termosuri și Căni termice</Link>
-            <Link href="">Căni cu logo</Link>
-            <Link href="">USB Flash Drive</Link>
-            <Link href="">Brelocuri</Link>
-            <Link href="">Accesorii pentru oficiu</Link>
-            <Link href="">Lanyarduri personalizate</Link>
-            <Link href="">Ecusoane și accesorii</Link>
-            <Link href="">Agende 2024</Link>
-            <Link href="">Personalizare agende</Link>
-            <Link href="">Genți și călătorii</Link>
-            <Link href="">Umbrele</Link>
-            <Link href="">Stegulețe și fanioane</Link>
-            <Link href="">Suvenire și cadouri corporative</Link>
+          <div className="dropdown-content items-start">
+            <Link className="ml-6" href="">
+              Pixuri Eco
+            </Link>
+            <Link className="ml-6" href="">
+              Pixuri Metalice
+            </Link>
+            <Link className="ml-6" href="">
+              Pixuri din plastic
+            </Link>
+            <Link className="ml-6" href="">
+              Sticle și Butelii
+            </Link>
+            <Link className="ml-6" href="">
+              Termosuri și Căni termice
+            </Link>
+            <Link className="ml-6" href="">
+              Căni cu logo
+            </Link>
+            <Link className="ml-6" href="">
+              USB Flash Drive
+            </Link>
+            <Link className="ml-6" href="">
+              Brelocuri
+            </Link>
+            <Link className="ml-6" href="">
+              Accesorii pentru oficiu
+            </Link>
+            <Link className="ml-6" href="">
+              Lanyarduri personalizate
+            </Link>
+            <Link className="ml-6" href="">
+              Ecusoane și accesorii
+            </Link>
+            <Link className="ml-6" href="">
+              Agende 2024
+            </Link>
+            <Link className="ml-6" href="">
+              Personalizare agende
+            </Link>
+            <Link className="ml-6" href="">
+              Genți și călătorii
+            </Link>
+            <Link className="ml-6" href="">
+              Umbrele
+            </Link>
+            <Link className="ml-6" href="">
+              Stegulețe și fanioane
+            </Link>
+            <Link className="ml-6" href="">
+              Suvenire și cadouri corporative
+            </Link>
           </div>
         </div>
         <div className="dropdown">
           <Link className="dropbtn font-semibold font-xl mr-8" href="/textile">
             Textile
           </Link>
-          <div className="dropdown-content">
+          <div className="dropdown-content items-start">
             {" "}
-            <Link href="">Tricouri simple</Link>
-            <Link href="">Tricouri Polo</Link>
-            <Link href="">Hanorace</Link>
-            <Link href="">Chipiuri</Link>
-            <Link href="">Torbe Eco</Link>
+            <Link className="ml-6" href="">
+              Tricouri simple
+            </Link>
+            <Link className="ml-6" href="">
+              Tricouri Polo
+            </Link>
+            <Link className="ml-6" href="">
+              Hanorace
+            </Link>
+            <Link className="ml-6" href="">
+              Chipiuri
+            </Link>
+            <Link className="ml-6" href="">
+              Torbe Eco
+            </Link>
           </div>
         </div>
         <div className="dropdown">
           <Link className="dropbtn font-semibold font-xl mr-8" href="/standuri">
             Standuri Expozitionale
           </Link>
-          <div className="dropdown-content">
-            <Link href="">Roll-Up Banner Standard</Link>
-            <Link href="">Roll-Up Banner Premium</Link>
-            <Link href="">Roll-Up Banner cu 2 fețe</Link>
-            <Link href="">Totem textil</Link>
-            <Link href="">X-Banner Econom</Link>
-            <Link href="">X-Banner Premium</Link>
-            <Link href="">People stopper (A-Stand)</Link>
-            <Link href="">People stopper Double Frame</Link>
+          <div className="dropdown-content items-start">
+            <Link className="ml-6" href="">
+              Roll-Up Banner Standard
+            </Link>
+            <Link className="ml-6" href="">
+              Roll-Up Banner Premium
+            </Link>
+            <Link className="ml-6" href="">
+              Roll-Up Banner cu 2 fețe
+            </Link>
+            <Link className="ml-6" href="">
+              Totem textil
+            </Link>
+            <Link className="ml-6" href="">
+              X-Banner Econom
+            </Link>
+            <Link className="ml-6" href="">
+              X-Banner Premium
+            </Link>
+            <Link className="ml-6" href="">
+              People stopper (A-Stand)
+            </Link>
+            <Link className="ml-6" href="">
+              People stopper Double Frame
+            </Link>
           </div>
         </div>
         <div className="dropdown">
           <Link className="dropbtn font-semibold font-xl mr-8" href="/printuri">
             Printuri Mari
           </Link>
-          <div className="dropdown-content">
-            <Link href="">Autocolante</Link>
-            <Link href="">Bannere</Link>
-            <Link href="">Tablouri Canvas și Multicanvas</Link>
-            <Link href="">Plăcuțe personalizate</Link>
-            <Link href="">Plăcuțe oficiu</Link>
-            <Link href="">Plăcuțe firmă</Link>
-            <Link href="">Panouri Informaționale</Link>
-            <Link href="">Rame-click</Link>
+          <div className="dropdown-content items-start">
+            <Link className="ml-6" href="">
+              Autocolante
+            </Link>
+            <Link className="ml-6" href="">
+              Bannere
+            </Link>
+            <Link className="ml-6" href="">
+              Tablouri Canvas și Multicanvas
+            </Link>
+            <Link className="ml-6" href="">
+              Plăcuțe personalizate
+            </Link>
+            <Link className="ml-6" href="">
+              Plăcuțe oficiu
+            </Link>
+            <Link className="ml-6" href="">
+              Plăcuțe firmă
+            </Link>
+            <Link className="ml-6" href="">
+              Panouri Informaționale
+            </Link>
+            <Link className="ml-6" href="">
+              Rame-click
+            </Link>
           </div>
         </div>
         <div className="dropdown">
           <Link className="dropbtn font-semibold font-xl mr-8" href="/servicii">
             Servicii
           </Link>
-          <div className="dropdown-content">
-            <Link href="">Transfer termic cu folie flex</Link>
-            <Link href="">Transfer termic pe chipiuri</Link>
-            <Link href="">Transfer termic pe umbrele</Link>
-            <Link href="">Sublimare pe textil</Link>
-            <Link href="">Transfer termic pe landyarduri</Link>
-            <Link href="">Sublimare pe landyarduri</Link>
-            <Link href="">Tipar UV pe suvenire</Link>
-            <Link href="">Laminare plic</Link>
-            <Link href="">Laminare în rolă</Link>
-            <Link href="">Scanner A4/A3</Link>
+          <div className="dropdown-content items-start">
+            <Link className="ml-6" href="">
+              Transfer termic cu folie flex
+            </Link>
+            <Link className="ml-6" href="">
+              Transfer termic pe chipiuri
+            </Link>
+            <Link className="ml-6" href="">
+              Transfer termic pe umbrele
+            </Link>
+            <Link className="ml-6" href="">
+              Sublimare pe textil
+            </Link>
+            <Link className="ml-6" href="">
+              Transfer termic pe landyarduri
+            </Link>
+            <Link className="ml-6" href="">
+              Sublimare pe landyarduri
+            </Link>
+            <Link className="ml-6" href="">
+              Tipar UV pe suvenire
+            </Link>
+            <Link className="ml-6" href="">
+              Laminare plic
+            </Link>
+            <Link className="ml-6" href="">
+              Laminare în rolă
+            </Link>
+            <Link className="ml-6" href="">
+              Scanner A4/A3
+            </Link>
           </div>
         </div>
         <Link className="font-semibold font-xl mr-8" href="/contacte">

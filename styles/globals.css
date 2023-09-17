@@ -204,7 +204,7 @@ body {
   transition: opacity 0.15s linear, transform 0.15s linear;
   display: flex;
   flex-direction: column;
-  width: 20vw;
+  width: 15vw;
   justify-items: left;
   padding: 2vh 0;
 }
