@@ -118,7 +118,7 @@ export default function Home() {
         <h1 className="text-start font-bold text-3xl mt-10 mb-5">Despre Noi</h1>
         <p>
           Cu pasiune pentru imprimarea de calitate și o devotare continuă pentru
-          satisfacția clienților noștri, Tipografia "Sănduța Art" s-a dezvoltat
+          satisfacția clienților noștri, Tipografia Sănduța Art s-a dezvoltat
           ca o modestă tipografie digitală, specializată în producția de
           materiale promoționale. Cu trecerea anilor și în urma feedback-ului
           nostru valoros din partea clienților, am evoluat și ne-am diversificat
@@ -128,8 +128,8 @@ export default function Home() {
         <br />
         <p>
           Cu toate acestea, un principiu a rămas neschimbat, ca un stindard pe
-          care îl purtăm cu mândrie: "Calitatea produselor și serviciilor
-          noastre trebuie să atingă vârful perfecțiunii." Suntem mândri să fim
+          care îl purtăm cu mândrie: Calitatea produselor și serviciilor
+          noastre trebuie să atingă vârful perfecțiunii. Suntem mândri să fim
           recunoscuți pentru devotamentul nostru față de clienți și pentru
           viteza cu care ne desfășurăm activitatea. Într-o lume în care timpul
           are o valoare inestimabilă, noi înțelegem importanța unei colaborări
@@ -142,10 +142,10 @@ export default function Home() {
         <br />
 
         <p>
-          "Sănduța Art" este sinonim cu atenția și abordarea individuală pentru
+          Sănduța Art este sinonim cu atenția și abordarea individuală pentru
           fiecare client:
         </p>
-        <ul style={{ listStyleType: "disc" }} className="ml-5">
+        <ul style={{ listStyleType: "disc" }} className="ml-7">
           <li>
             Ne putem materializa cu precizie toate ideile dvs. sau vă putem
             propune concepte inovatoare.
@@ -161,13 +161,13 @@ export default function Home() {
 
         <br />
         <p>
-          Cu Tipografia "Sănduța Art" la partea de producție, puteți transforma
+          Cu Tipografia Sănduța Art la partea de producție, puteți transforma
           visele în realitate, economisi bani și timp prețios și materializa
           cele mai îndrăznețe concepte.
         </p>
         <br />
         <p>
-          "Sănduța Art" - unde creativitatea, calitatea și viteza se întâlnesc
+          Sănduța Art - unde creativitatea, calitatea și viteza se întâlnesc
           pentru a vă oferi cele mai bune soluții tipografice.
         </p>
       </div>
