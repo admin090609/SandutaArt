@@ -274,7 +274,7 @@ export default function Nav() {
               <Link href="" className="flex items-center">
                 <Image
                   src="/images/stand.png"
-                  alt="Carte de vizită"
+                  alt="Postere"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -293,8 +293,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/presentation.png"
+                  alt="Mape de prezentare"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -303,8 +303,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/copy.png"
+                  alt="Foi cu antet"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -313,8 +313,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/diploma.png"
+                  alt="Diplome și certificate"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -323,8 +323,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/invitation.png"
+                  alt="Invitații și felicitări"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -333,8 +333,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/envelope.png"
+                  alt="Plicuri personalizate"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -343,8 +343,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/tickets.png"
+                  alt="Bilete"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -353,8 +353,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/bookmark.png"
+                  alt="Semne de carte"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -363,8 +363,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/menu.png"
+                  alt="Meniuri"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -373,8 +373,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/calendar.png"
+                  alt="Calendare trimestriale"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -383,18 +383,18 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/calendar-perete.png"
+                  alt="Calendare de perete"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
                 />
-                Calendate de perete
+                Calendare de perete
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/calendar-birou.png"
+                  alt="Calendare de birou"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
