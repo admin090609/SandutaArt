@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <hr className="hidden lg:block lg:max-w-[60%] mt-10 mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
-      <h1 className="text-center font-bold text-3xl mt-10">PRODUSE</h1>
+      <hr className="hidden lg:block lg:max-w-[60%] mt-10 sm:mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
+      <h1 className="text-center font-bold text-3xl mt-20 sm:mt-10">PRODUSE</h1>
       <div className="flex justify-center max-w-[960px] mt-5 mx-auto mb-75 flex-wrap">
         <div className="product-card">
           <Link href="/marketing">

@@ -54,7 +54,7 @@ export default function Slider() {
           <SwiperSlide>
             <div className="flex justify-center items-center h-full">
               <div className="w-[100%] lg:w-[70%] text-center">
-                <div className="w-[100%] text-center">
+                <div className="w-[150%] sm:w-[100%] text-center">
                   <Image
                     src="/images/banner.JPG"
                     alt="banner"
@@ -71,7 +71,7 @@ export default function Slider() {
           <SwiperSlide>
             <div className="flex justify-center items-center h-full">
               <div className="w-[100%] lg:w-[70%] text-center">
-                <div className="w-[100%] text-center">
+                <div className="w-[150%] sm:w-[100%] text-center">
                   <Image
                     src="/images/banner.JPG"
                     alt="banner"
@@ -88,7 +88,7 @@ export default function Slider() {
           <SwiperSlide>
             <div className="flex justify-center items-center h-full">
               <div className="w-[100%] lg:w-[70%] text-center">
-                <div className="w-[100%] text-center">
+                <div className="w-[150%] sm:w-[100%] text-center">
                   <Image
                     src="/images/banner.JPG"
                     alt="banner"

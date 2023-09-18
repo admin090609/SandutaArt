@@ -159,15 +159,101 @@ export default function Nav() {
           </Link>
           <div className="dropdown-content items-start">
             <Link href="">Cărți de vizită</Link>
+            <div className="carti-de-vizita items-start">
+              <Link href="">Cărți de Vizită standard</Link>
+              <Link href="">Cărți de Vizită pe carton special</Link>
+              <Link href="">Cărți de Vizită imprimate UV</Link>
+              <Link href="">Cărți de Vizită pe hârtie din kraft</Link>
+              <Link href="">Cărți de Vizită din plastic</Link>
+              <Link href="">Cărți de Vizită econom</Link>
+              <Link href="">Suport Cărți de Vizită</Link>
+              <Link href="">Suport Cărți de Vizită cu Magnet</Link>
+            </div>
             <Link href="">Tipărituri</Link>
+            <div className="tiparituri items-start">
+              <Link href="">Flyere</Link>
+              <Link href="">Postere</Link>
+              <Link href="">Plante și Booklete</Link>
+              <Link href="">Mape de prezentare</Link>
+              <Link href="">Foi cu antet</Link>
+              <Link href="">Diplome și certificate</Link>
+              <Link href="">Invitații și felicitări</Link>
+              <Link href="">Plicuri personalizate</Link>
+              <Link href="">Bilete</Link>
+              <Link href="">Semne de carte</Link>
+              <Link href="">Meniuri</Link>
+              <Link href="">Calendare trimestriale</Link>
+              <Link href="">Calendate de perete</Link>
+              <Link href="">Calendare de birou</Link>
+              <Link href="">Calendare de buzunar</Link>
+            </div>
             <Link href="">Broșuri, Cărți, Cataloage</Link>
+            <div className="brosuri-carti-cataloage items-start">
+              <Link href="">Broșuri prinse cu capse</Link>
+              <Link href="">Broșuri prinse cu spira metalică</Link>
+              <Link href="">Cărți cu copertă moale</Link>
+              <Link href="">Cărți cu copertă tare</Link>
+              <Link href="">Eurocopertare</Link>
+            </div>
             <Link href="">Carnete</Link>
+            <div className="carnete items-start">
+              <Link href="">Carnete simple prinse cu spiră</Link>
+              <Link href="">Carnete cu interior color prinse cu spiră</Link>
+              <Link href="">Carnete simple prinse cu clei</Link>
+              <Link href="">Carnete cu interior color prinse cu clei</Link>
+              <Link href="">Carnete cu copertă tare prinse cu spiră</Link>
+            </div>
             <Link href="">Etichete și Autocolante</Link>
+            <div className="etichete-autocolante items-start">
+              <Link href="">Stickere rotunde</Link>
+              <Link href="">Stickere pătrate</Link>
+              <Link href="">Stickere dreptunghiulare</Link>
+              <Link href="">Stickere A-size</Link>
+              <Link href="">Etichete din carton standard</Link>
+              <Link href="">Etichete din carton pliate</Link>
+              <Link href="">Etichete din carton special</Link>
+              <Link href="">Etichete din carton stantate</Link>
+            </div>
             <Link href="">Stickere PVC</Link>
+            <div className="stickere items-start">
+              <Link href="">Stickere PVC tăiate complet</Link>
+              <Link href="">Stickere PVC decupate pe contur</Link>
+            </div>
             <Link href="">Foto Printing</Link>
+            <div className="foto-printing items-start">
+              <Link href="">Magneți cu foto</Link>
+              <Link href="">Magneți corporativi cu logo</Link>
+              <Link href="">Foto pe puzzle</Link>
+              <Link href="">Mouse-Pad Personalizat</Link>
+              <Link href="">Perna cu foto</Link>
+              <Link href="">Cană alba, 300ml</Link>
+              <Link href="">Cană pentru cafea</Link>
+              <Link href="">Cană cu interior color</Link>
+              <Link href="">Cană cu margine și toarta colore</Link>
+              <Link href="">Cană cu interior și toarta colore</Link>
+              <Link href="">Cană chameleon</Link>
+            </div>
             <Link href="">Shopping Bags</Link>
+            <div className="shopping-bags items-start">
+              <Link href="">Pungi din Kraft</Link>
+              <Link href="">Pungi cu șireturi standard</Link>
+              <Link href="">Torbe-Eco</Link>
+            </div>
             <Link href="">POS-materiale</Link>
+            <div className="pos-materiale items-start">
+              <Link href="">Suporturi din plexiglas</Link>
+              <Link href="">Suporturi pliante și flyere</Link>
+              <Link href="">Suporturi din lemn</Link>
+              <Link href="">Suport Pahare</Link>
+              <Link href="">Wobblere</Link>
+              <Link href="">Table-Tent</Link>
+            </div>
             <Link href="">Design Grafic</Link>
+            <div className="design-grafic items-start">
+              <Link href="">Design tipărituri</Link>
+              <Link href="">Design Materiale Marketing</Link>
+              <Link href="">Design POS-Materiale</Link>
+            </div>
           </div>
         </div>
         <div className="dropdown">
