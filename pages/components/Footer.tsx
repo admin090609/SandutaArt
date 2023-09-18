@@ -83,7 +83,7 @@ const Footer = () => {
                 height={0}
                 className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
               />
-              <p className="font-semibold no-underline">
+              <p className="font-semibold">
                 sanduta.art@gmail.com
               </p>
             </Link>
