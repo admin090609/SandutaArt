@@ -241,6 +241,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 5vh;
 }
 
 .brosuri-carti-cataloage {
@@ -258,6 +259,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 10vh;
 }
 
 .carnete {
@@ -275,6 +277,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 13.5vh;
 }
 
 .etichete-autocolante {
@@ -292,6 +295,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 17.5vh;
 }
 
 .stickere {
@@ -309,6 +313,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 22.5vh;
 }
 
 .foto-printing {
@@ -326,6 +331,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 26.5vh;
 }
 
 .shopping-bags {
@@ -343,6 +349,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 31vh;
 }
 
 .pos-materiale {
@@ -360,6 +367,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 34.5vh;
 }
 
 .design-grafic {
@@ -377,6 +385,7 @@ body {
   justify-items: left;
   padding: 2vh 0;
   left: 20vw;
+  top: 38.5vh;
 }
 
 .dropdown-content a {
@@ -397,7 +406,7 @@ body {
   padding-right: 2vw;
 }
 
-.tiparituri a{
+.tiparituri a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -405,7 +414,7 @@ body {
   padding-right: 2vw;
 }
 
-.brosuri-carti-cataloage a{
+.brosuri-carti-cataloage a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -413,7 +422,7 @@ body {
   padding-right: 2vw;
 }
 
-.carnete a{
+.carnete a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -421,7 +430,7 @@ body {
   padding-right: 2vw;
 }
 
-.etichete-autocolante a{
+.etichete-autocolante a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -429,7 +438,7 @@ body {
   padding-right: 2vw;
 }
 
-.stickere a{
+.stickere a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -437,7 +446,7 @@ body {
   padding-right: 2vw;
 }
 
-.foto-printing a{
+.foto-printing a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -445,7 +454,7 @@ body {
   padding-right: 2vw;
 }
 
-.shopping-bags a{
+.shopping-bags a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -453,7 +462,7 @@ body {
   padding-right: 2vw;
 }
 
-.pos-materiale a{
+.pos-materiale a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -461,7 +470,7 @@ body {
   padding-right: 2vw;
 }
 
-.design-grafic a{
+.design-grafic a {
   color: black;
   text-decoration: none;
   padding: 1vh 0;
@@ -520,80 +529,80 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(1):hover ~ .carti-de-vizita,
-  .carti-de-vizita:hover {
+.dropdown-content a:nth-child(1):hover~.carti-de-vizita,
+.carti-de-vizita:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(3):hover ~ .tiparituri,
-  .tiparituri:hover {
+.dropdown-content a:nth-child(3):hover~.tiparituri,
+.tiparituri:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(5):hover ~ .brosuri-carti-cataloage,
-  .brosuri-carti-cataloage:hover {
+.dropdown-content a:nth-child(5):hover~.brosuri-carti-cataloage,
+.brosuri-carti-cataloage:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(7):hover ~ .carnete,
-  .carnete:hover {
+.dropdown-content a:nth-child(7):hover~.carnete,
+.carnete:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(9):hover ~ .etichete-autocolante,
-  .etichete-autocolante:hover {
+.dropdown-content a:nth-child(9):hover~.etichete-autocolante,
+.etichete-autocolante:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(11):hover ~ .stickere,
-  .stickere:hover {
+.dropdown-content a:nth-child(11):hover~.stickere,
+.stickere:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(13):hover ~ .foto-printing,
-  .foto-printing:hover {
+.dropdown-content a:nth-child(13):hover~.foto-printing,
+.foto-printing:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(15):hover ~ .shopping-bags,
-  .shopping-bags:hover {
+.dropdown-content a:nth-child(15):hover~.shopping-bags,
+.shopping-bags:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(17):hover ~ .pos-materiale,
-  .pos-materiale:hover {
+.dropdown-content a:nth-child(17):hover~.pos-materiale,
+.pos-materiale:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(19):hover ~ .design-grafic,
-  .design-grafic:hover {
+.dropdown-content a:nth-child(19):hover~.design-grafic,
+.design-grafic:hover {
   display: flex;
   flex-direction: column;
   opacity: 1;
