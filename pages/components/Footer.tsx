@@ -74,20 +74,16 @@ const Footer = () => {
             />
             <p className="font-semibold">069 111 401</p>
           </Link>
-          <div className="flex items-center justify-start mb-2">
-            <Link href="">
-              <Image
-                src="/images/gmail.png"
-                alt=""
-                width={40}
-                height={0}
-                className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
-              />
-              <p className="font-semibold">
-                sanduta.art@gmail.com
-              </p>
-            </Link>
-          </div>
+          <Link href="" className="flex items-center justify-start mb-2">
+            <Image
+              src="/images/gmail.png"
+              alt=""
+              width={40}
+              height={0}
+              className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
+            />
+            <p className="font-semibold">sanduta.art@gmail.com</p>
+          </Link>
           <Link
             href="https://www.google.com/maps/place/Sanduta+Art/@46.946888,28.7743665,15z/data=!4m6!3m5!1s0x40c97f77a5797f33:0x44dde14e3f8587d2!8m2!3d46.946888!4d28.7743665!16s%2Fg%2F11n7k4g97z?hl=en&entry=ttu"
             className="flex items-center justify-start"
