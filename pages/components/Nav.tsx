@@ -158,101 +158,785 @@ export default function Nav() {
             Produse
           </Link>
           <div className="dropdown-content items-start">
-            <Link href="">Cărți de vizită</Link>
+            <Link href="" className="flex items-center">
+              Cărți de vizită{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="carti-de-vizita items-start">
-              <Link href="">Cărți de Vizită standard</Link>
-              <Link href="">Cărți de Vizită pe carton special</Link>
-              <Link href="">Cărți de Vizită imprimate UV</Link>
-              <Link href="">Cărți de Vizită pe hârtie din kraft</Link>
-              <Link href="">Cărți de Vizită din plastic</Link>
-              <Link href="">Cărți de Vizită econom</Link>
-              <Link href="">Suport Cărți de Vizită</Link>
-              <Link href="">Suport Cărți de Vizită cu Magnet</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită standard
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită pe carton special
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită imprimate UV
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită pe hârtie din kraft
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită din plastic
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/business-cards.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți de Vizită econom
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suport Cărți de Vizită
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suport Cărți de Vizită cu Magnet
+              </Link>
             </div>
-            <Link href="">Tipărituri</Link>
+            <Link href="" className="flex items-center">
+              Tipărituri{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="tiparituri items-start">
-              <Link href="">Flyere</Link>
-              <Link href="">Postere</Link>
-              <Link href="">Plante și Booklete</Link>
-              <Link href="">Mape de prezentare</Link>
-              <Link href="">Foi cu antet</Link>
-              <Link href="">Diplome și certificate</Link>
-              <Link href="">Invitații și felicitări</Link>
-              <Link href="">Plicuri personalizate</Link>
-              <Link href="">Bilete</Link>
-              <Link href="">Semne de carte</Link>
-              <Link href="">Meniuri</Link>
-              <Link href="">Calendare trimestriale</Link>
-              <Link href="">Calendate de perete</Link>
-              <Link href="">Calendare de birou</Link>
-              <Link href="">Calendare de buzunar</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/flyer.png"
+                  alt="Flyere"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Flyere
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Postere
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/brochure.png"
+                  alt="Pliante și Booklete"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Pliante și Booklete
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Mape de prezentare
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Foi cu antet
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Diplome și certificate
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Invitații și felicitări
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Plicuri personalizate
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Bilete
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Semne de carte
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Meniuri
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Calendare trimestriale
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Calendate de perete
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Calendare de birou
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Calendare de buzunar
+              </Link>
             </div>
-            <Link href="">Broșuri, Cărți, Cataloage</Link>
+            <Link href="" className="flex items-center">
+              Broșuri, Cărți, Cataloage{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="brosuri-carti-cataloage items-start">
-              <Link href="">Broșuri prinse cu capse</Link>
-              <Link href="">Broșuri prinse cu spira metalică</Link>
-              <Link href="">Cărți cu copertă moale</Link>
-              <Link href="">Cărți cu copertă tare</Link>
-              <Link href="">Eurocopertare</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Broșuri prinse cu capse
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Broșuri prinse cu spira metalică
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți cu copertă moale
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cărți cu copertă tare
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Eurocopertare
+              </Link>
             </div>
-            <Link href="">Carnete</Link>
+            <Link href="" className="flex items-center">
+              Carnete{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="carnete items-start">
-              <Link href="">Carnete simple prinse cu spiră</Link>
-              <Link href="">Carnete cu interior color prinse cu spiră</Link>
-              <Link href="">Carnete simple prinse cu clei</Link>
-              <Link href="">Carnete cu interior color prinse cu clei</Link>
-              <Link href="">Carnete cu copertă tare prinse cu spiră</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Carnete simple prinse cu spiră
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Carnete cu interior color prinse cu spiră
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Carnete simple prinse cu clei
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Carnete cu interior color prinse cu clei
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Carnete cu copertă tare prinse cu spiră
+              </Link>
             </div>
-            <Link href="">Etichete și Autocolante</Link>
+            <Link href="" className="flex items-center">
+              Etichete și Autocolante{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="etichete-autocolante items-start">
-              <Link href="">Stickere rotunde</Link>
-              <Link href="">Stickere pătrate</Link>
-              <Link href="">Stickere dreptunghiulare</Link>
-              <Link href="">Stickere A-size</Link>
-              <Link href="">Etichete din carton standard</Link>
-              <Link href="">Etichete din carton pliate</Link>
-              <Link href="">Etichete din carton special</Link>
-              <Link href="">Etichete din carton stantate</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere rotunde
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere pătrate
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere dreptunghiulare
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere A-size
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Etichete din carton standard
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Etichete din carton pliate
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Etichete din carton special
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Etichete din carton stantate
+              </Link>
             </div>
-            <Link href="">Stickere PVC</Link>
+            <Link href="" className="flex items-center">
+              Stickere PVC{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="stickere items-start">
-              <Link href="">Stickere PVC tăiate complet</Link>
-              <Link href="">Stickere PVC decupate pe contur</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere PVC tăiate complet
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Stickere PVC decupate pe contur
+              </Link>
             </div>
-            <Link href="">Foto Printing</Link>
+            <Link href="" className="flex items-center">
+              Foto Printing{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="foto-printing items-start">
-              <Link href="">Magneți cu foto</Link>
-              <Link href="">Magneți corporativi cu logo</Link>
-              <Link href="">Foto pe puzzle</Link>
-              <Link href="">Mouse-Pad Personalizat</Link>
-              <Link href="">Perna cu foto</Link>
-              <Link href="">Cană alba, 300ml</Link>
-              <Link href="">Cană pentru cafea</Link>
-              <Link href="">Cană cu interior color</Link>
-              <Link href="">Cană cu margine și toarta colore</Link>
-              <Link href="">Cană cu interior și toarta colore</Link>
-              <Link href="">Cană chameleon</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Magneți cu foto
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Magneți corporativi cu logo
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Foto pe puzzle
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Mouse-Pad Personalizat
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Perna cu foto
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană alba, 300ml
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană pentru cafea
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană cu interior color
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană cu margine și toarta colore
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană cu interior și toarta colore
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Cană chameleon
+              </Link>
             </div>
-            <Link href="">Shopping Bags</Link>
+            <Link href="" className="flex items-center">
+              Shopping Bags{" "}
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="shopping-bags items-start">
-              <Link href="">Pungi din Kraft</Link>
-              <Link href="">Pungi cu șireturi standard</Link>
-              <Link href="">Torbe-Eco</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Pungi din Kraft
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Pungi cu șireturi standard
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Torbe-Eco
+              </Link>
             </div>
-            <Link href="">POS-materiale</Link>
+            <Link href="" className="flex items-center">
+              POS-materiale
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="pos-materiale items-start">
-              <Link href="">Suporturi din plexiglas</Link>
-              <Link href="">Suporturi pliante și flyere</Link>
-              <Link href="">Suporturi din lemn</Link>
-              <Link href="">Suport Pahare</Link>
-              <Link href="">Wobblere</Link>
-              <Link href="">Table-Tent</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suporturi din plexiglas
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suporturi pliante și flyere
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suporturi din lemn
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Suport Pahare
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Wobblere
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Table-Tent
+              </Link>
             </div>
-            <Link href="">Design Grafic</Link>
+            <Link href="" className="flex items-center">
+              Design Grafic
+              <Image
+                src="/images/nav_arrow.png"
+                alt="Arrow"
+                width="20"
+                height="20"
+                className="w-[7.5%] h-auto absolute right-2"
+              />
+            </Link>
             <div className="design-grafic items-start">
-              <Link href="">Design tipărituri</Link>
-              <Link href="">Design Materiale Marketing</Link>
-              <Link href="">Design POS-Materiale</Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Design tipărituri
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Design Materiale Marketing
+              </Link>
+              <Link href="" className="flex items-center">
+                <Image
+                  src="/images/stand.png"
+                  alt="Carte de vizită"
+                  width="40"
+                  height="0"
+                  className="w-[10%] mr-2"
+                />
+                Design POS-Materiale
+              </Link>
             </div>
           </div>
         </div>
