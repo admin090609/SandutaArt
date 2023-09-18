@@ -82,7 +82,7 @@ const Footer = () => {
               height={0}
               className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
             />
-            <p className="font-semibold">sanduta.art@gmail.com</p>
+            <p className="font-semibold no-underline">sanduta.art@gmail.com</p>
           </div>
           <Link
             href="https://www.google.com/maps/place/Sanduta+Art/@46.946888,28.7743665,15z/data=!4m6!3m5!1s0x40c97f77a5797f33:0x44dde14e3f8587d2!8m2!3d46.946888!4d28.7743665!16s%2Fg%2F11n7k4g97z?hl=en&entry=ttu"
@@ -96,7 +96,7 @@ const Footer = () => {
               className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
             />
             <div>
-              <p className="font-semibold text-sm">
+              <p className="font-semibold">
                 Ialoveni, Alexandru cel Bun 78/1
               </p>
             </div>
