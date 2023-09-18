@@ -158,7 +158,7 @@ export default function Nav() {
             Produse
           </Link>
           <div className="dropdown-content items-start">
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/carti_de_vizita" className="flex items-center">
               Cărți de vizită{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -250,7 +250,7 @@ export default function Nav() {
                 Suport Cărți de Vizită cu Magnet
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/tiparituri" className="flex items-center">
               Tipărituri{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -412,7 +412,7 @@ export default function Nav() {
                 Calendare de buzunar
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/brosuri_carti_cataloage" className="flex items-center">
               Broșuri, Cărți, Cataloage{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -474,7 +474,7 @@ export default function Nav() {
                 Eurocopertare
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/carnete" className="flex items-center">
               Carnete{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -536,7 +536,7 @@ export default function Nav() {
                 Carnete cu copertă tare prinse cu spiră
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_poduse/etichete_si_autocolante" className="flex items-center">
               Etichete și Autocolante{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -628,7 +628,7 @@ export default function Nav() {
                 Etichete din carton stantate
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/stickere_pvc" className="flex items-center">
               Stickere PVC{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -660,7 +660,7 @@ export default function Nav() {
                 Stickere PVC decupate pe contur
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/foto_printing" className="flex items-center">
               Foto Printing{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -782,7 +782,7 @@ export default function Nav() {
                 Cană chameleon
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/shopping_bags" className="flex items-center">
               Shopping Bags{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -824,7 +824,7 @@ export default function Nav() {
                 Torbe-Eco
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/pos_materiale" className="flex items-center">
               POS-materiale
               <Image
                 src="/images/nav_arrow.png"
@@ -896,7 +896,7 @@ export default function Nav() {
                 Table-Tent
               </Link>
             </div>
-            <Link href="" className="flex items-center">
+            <Link href="/category_produse/design_grafic" className="flex items-center">
               Design Grafic
               <Image
                 src="/images/nav_arrow.png"
