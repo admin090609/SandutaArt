@@ -9,7 +9,7 @@ export default function Home() {
       <Slider />
       <hr className=" max-w-[84%] sm:max-w-[60%] mt-10 sm:mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
       <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10">PRODUSE</h1>
-      <div className="flex justify-center max-w-[960px] mx-auto flex-wrap">
+      <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-16">
         <div className="product-card">
           <Link href="/marketing">
             <Image
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
 
-      <hr className="hidden lg:block lg:max-w-[60%] mt-10 mb-10 border-2 rounded-xl items-center justify-center m-auto  border-[#B1B1B1]" />
+      <hr className="hidden lg:block lg:max-w-[60%] mt-0 mb-10 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
       <style jsx>{`
         .flex {
           display: flex;
