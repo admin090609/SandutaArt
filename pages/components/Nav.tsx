@@ -123,7 +123,7 @@ export default function Nav() {
                 />
               </div>
               <div className="relative transition-all duration-300 ease-in-out">
-                <Link className="font-bold text-xl mt-4" href="/produse">
+                <Link className="font-bold text-xl mt-4" href="/category/produse">
                   Produse
                 </Link>
               </div>
@@ -154,7 +154,7 @@ export default function Nav() {
       </div>
       <div className="hidden lg:flex justify-center items-center p-6 text-center leading-5">
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/produse">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/produse">
             Produse
           </Link>
           <div className="dropdown-content items-start">
