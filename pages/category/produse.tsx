@@ -5,7 +5,7 @@ import Image from "next/image";
 const produse = () => {
   return (
     <>
-      <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10">PRODUSE</h1>
+      <h1 className="text-center font-bold text-3xl mt-10 mb-10">PRODUSE</h1>
       <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-10">
         <div className="product-card">
           <Link href="/marketing">
@@ -139,7 +139,7 @@ const produse = () => {
         </div>
       </div>
 
-      <hr className="hidden lg:block lg:max-w-[60%] mt-0 mb-20 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
+      <hr className=" max-w-[84%] sm:max-w-[60%] mb-10 border-2 rounded-xl items-center justify-center m-auto  border-[#B1B1B1]" />
       <style jsx>{`
         .flex {
           display: flex;
@@ -149,8 +149,7 @@ const produse = () => {
 
         .product-card {
           text-align: center;
-          margin: 20px;
-          margin-top: 40px;
+          margin: 10px;
           width: calc(50% - 40px); /* Two columns on mobile */
           height: 200px; /* Aici setați dimensiunea dorită pentru toate imaginile */
           transition: filter 0.3s; /* Adăugăm o tranziție pentru efect de hover */
