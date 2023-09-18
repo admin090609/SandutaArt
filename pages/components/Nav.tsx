@@ -127,19 +127,19 @@ export default function Nav() {
                   Produse
                 </Link>
               </div>
-              <Link className="font-bold text-xl mt-4" href="/marketing">
+              <Link className="font-bold text-xl mt-4" href="/category/marketing">
                 Materiale Marketing
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/textile">
+              <Link className="font-bold text-xl mt-4" href="/category/textile">
                 Textile
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/standuri">
+              <Link className="font-bold text-xl mt-4" href="/category/standuri">
                 Standuri Expozitionale
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/printuri">
+              <Link className="font-bold text-xl mt-4" href="/category/printuri">
                 Printuri Mari
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/servicii">
+              <Link className="font-bold text-xl mt-4" href="/category/servicii">
                 Servicii
               </Link>
               <Link className="font-bold text-xl mt-4" href="/contacte">
