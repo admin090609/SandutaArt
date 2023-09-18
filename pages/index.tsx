@@ -8,12 +8,12 @@ export default function Home() {
     <>
       <Slider />
       <hr className=" max-w-[84%] sm:max-w-[60%] mt-10 sm:mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
-      <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10">Produsele Noastre</h1>
+      <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10 mb-10">Produsele Noastre</h1>
       <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-20">
         <div className="product-card">
           <Link href="/marketing">
             <Image
-              src="/images/marketing.png"
+              src="/images/materiale_marketing.jpg"
               alt=""
               width={100}
               height={100}
@@ -26,7 +26,7 @@ export default function Home() {
         <div className="product-card">
           <Link href="/textile">
             <Image
-              src="/images/textile.png"
+              src="/images/textile.jpg"
               alt=""
               width={100}
               height={100}
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="product-card">
           <Link href="/standuri">
             <Image
-              src="/images/standuri.png"
+              src="/images/standuri.jpg"
               alt=""
               width={100}
               height={100}
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="product-card">
           <Link href="/printuri">
             <Image
-              src="/images/printuri.png"
+              src="/images/printuri_mari.jpg"
               alt=""
               width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
               height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="product-card">
           <Link href="/publicitara">
             <Image
-              src="/images/publicitate.png"
+              src="/images/productie_publicitara.jpg"
               alt=""
               width={100}
               height={100}
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/servicii.jpg"
               alt=""
               width={100}
               height={100}
@@ -101,7 +101,6 @@ export default function Home() {
         .product-card {
           text-align: center;
           margin: 10px;
-          margin-top: 40px;
           width: calc(50% - 40px); /* Two columns on mobile */
           height: 200px; /* Aici setați dimensiunea dorită pentru toate imaginile */
           transition: filter 0.3s; /* Adăugăm o tranziție pentru efect de hover */
