@@ -6,11 +6,11 @@ const produse = () => {
   return (
     <>
       <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10">PRODUSE</h1>
-      <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-20">
+      <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-10">
         <div className="product-card">
           <Link href="/marketing">
             <Image
-              src="/images/marketing.png"
+              src="/images/carti_de_vizita.jpg"
               alt=""
               width={100}
               height={100}
@@ -23,7 +23,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/textile">
             <Image
-              src="/images/textile.png"
+              src="/images/tiparituri.jpg"
               alt=""
               width={100}
               height={100}
@@ -36,20 +36,20 @@ const produse = () => {
         <div className="product-card">
           <Link href="/standuri">
             <Image
-              src="/images/standuri.png"
+              src="/images/brosuri_carti_cataloage.jpg"
               alt=""
               width={100}
               height={100}
               layout="responsive"
               className="rounded-sm"
             />
-            <p>Brușuri, cărți, cataloage</p>
+            <p>Broșuri, cărți, cataloage</p>
           </Link>
         </div>
         <div className="product-card">
           <Link href="/printuri">
             <Image
-              src="/images/printuri.png"
+              src="/images/carnete.jpg"
               alt=""
               width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
               height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
@@ -62,7 +62,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/publicitara">
             <Image
-              src="/images/publicitate.png"
+              src="/images/photo_printing.jpg"
               alt=""
               width={100}
               height={100}
@@ -75,7 +75,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/etichete_autocolante.jpg"
               alt=""
               width={100}
               height={100}
@@ -88,7 +88,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/stikere_pvc.jpg"
               alt=""
               width={100}
               height={100}
@@ -101,7 +101,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/shopping_bags.jpg"
               alt=""
               width={100}
               height={100}
@@ -114,7 +114,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/pos_materiale.jpg"
               alt=""
               width={100}
               height={100}
@@ -127,7 +127,7 @@ const produse = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/servicii.png"
+              src="/images/design_grafic.jpg"
               alt=""
               width={100}
               height={100}
