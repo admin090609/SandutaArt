@@ -123,23 +123,38 @@ export default function Nav() {
                 />
               </div>
               <div className="relative transition-all duration-300 ease-in-out">
-                <Link className="font-bold text-xl mt-4" href="/category/produse">
+                <Link
+                  className="font-bold text-xl mt-4"
+                  href="/category/produse"
+                >
                   Produse
                 </Link>
               </div>
-              <Link className="font-bold text-xl mt-4" href="/category/marketing">
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/category/marketing"
+              >
                 Materiale Marketing
               </Link>
               <Link className="font-bold text-xl mt-4" href="/category/textile">
                 Textile
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/category/standuri">
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/category/standuri"
+              >
                 Standuri Expozitionale
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/category/printuri">
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/category/printuri"
+              >
                 Printuri Mari
               </Link>
-              <Link className="font-bold text-xl mt-4" href="/category/servicii">
+              <Link
+                className="font-bold text-xl mt-4"
+                href="/category/servicii"
+              >
                 Servicii
               </Link>
               <Link className="font-bold text-xl mt-4" href="/contacte">
@@ -154,11 +169,17 @@ export default function Nav() {
       </div>
       <div className="hidden lg:flex justify-center items-center p-6 text-center leading-5">
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/produse">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/category/produse"
+          >
             Produse
           </Link>
           <div className="dropdown-content items-start">
-            <Link href="/category_produse/carti_de_vizita" className="flex items-center">
+            <Link
+              href="/category_produse/carti_de_vizita"
+              className="flex items-center"
+            >
               Cărți de vizită{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -250,7 +271,10 @@ export default function Nav() {
                 Suport Cărți de Vizită cu Magnet
               </Link>
             </div>
-            <Link href="/category_produse/tiparituri" className="flex items-center">
+            <Link
+              href="/category_produse/tiparituri"
+              className="flex items-center"
+            >
               Tipărituri{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -403,8 +427,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/calendar-buzunar.png"
+                  alt="Calendare de buzunar"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -412,7 +436,10 @@ export default function Nav() {
                 Calendare de buzunar
               </Link>
             </div>
-            <Link href="/category_produse/brosuri_carti_cataloage" className="flex items-center">
+            <Link
+              href="/category_produse/brosuri_carti_cataloage"
+              className="flex items-center"
+            >
               Broșuri, Cărți, Cataloage{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -425,8 +452,8 @@ export default function Nav() {
             <div className="brosuri-carti-cataloage items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/brosura.png"
+                  alt="Broșuri prinse cu capse"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -435,8 +462,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/brosura-spira-metalica.png"
+                  alt="Broșuri prinse cu spira metalică"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -445,8 +472,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/copybook.png"
+                  alt="Cărți cu copertă moale"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -455,8 +482,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/book.png"
+                  alt="Cărți cu copertă tare"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -465,8 +492,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/eurocopertare.png"
+                  alt="Eurocopertare"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -474,7 +501,10 @@ export default function Nav() {
                 Eurocopertare
               </Link>
             </div>
-            <Link href="/category_produse/carnete" className="flex items-center">
+            <Link
+              href="/category_produse/carnete"
+              className="flex items-center"
+            >
               Carnete{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -487,8 +517,8 @@ export default function Nav() {
             <div className="carnete items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/carnet-spira1.png"
+                  alt="Carnete simple prinse cu spiră"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -497,8 +527,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/carnet-spira2.png"
+                  alt="Carnete cu interior color prinse cu spiră"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -507,8 +537,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/carnet-clei1.png"
+                  alt="Carnete simple prinse cu clei"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -517,8 +547,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/carnet-clei2.png"
+                  alt="Carnete cu interior color prinse cu clei"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -527,8 +557,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/carnet-spira3.png"
+                  alt="Carnete cu copertă tare prinse cu spiră"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -536,7 +566,10 @@ export default function Nav() {
                 Carnete cu copertă tare prinse cu spiră
               </Link>
             </div>
-            <Link href="/category_poduse/etichete_si_autocolante" className="flex items-center">
+            <Link
+              href="/category_poduse/etichete_si_autocolante"
+              className="flex items-center"
+            >
               Etichete și Autocolante{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -549,8 +582,8 @@ export default function Nav() {
             <div className="etichete-autocolante items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker-round.png"
+                  alt="Stickere rotunde"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -559,8 +592,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker-square.png"
+                  alt="Stickere pătrate"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -569,8 +602,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker-rectangular.png"
+                  alt="Stickere dreptunghiulare"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -579,8 +612,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker-Asize.png"
+                  alt="v"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -589,8 +622,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/tags1.png"
+                  alt="Etichete din carton standard"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -599,8 +632,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/tags2.png"
+                  alt="Etichete din carton pliate"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -609,8 +642,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/tags3.png"
+                  alt="Etichete din carton special"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -619,8 +652,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/tags4.png"
+                  alt="Etichete din carton stantate"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -628,7 +661,10 @@ export default function Nav() {
                 Etichete din carton stantate
               </Link>
             </div>
-            <Link href="/category_produse/stickere_pvc" className="flex items-center">
+            <Link
+              href="/category_produse/stickere_pvc"
+              className="flex items-center"
+            >
               Stickere PVC{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -641,8 +677,8 @@ export default function Nav() {
             <div className="stickere items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker5.png"
+                  alt="Stickere PVC tăiate complet"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -651,8 +687,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/sticker6.png"
+                  alt="Stickere PVC decupate pe contur"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -660,7 +696,10 @@ export default function Nav() {
                 Stickere PVC decupate pe contur
               </Link>
             </div>
-            <Link href="/category_produse/foto_printing" className="flex items-center">
+            <Link
+              href="/category_produse/foto_printing"
+              className="flex items-center"
+            >
               Foto Printing{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -673,8 +712,8 @@ export default function Nav() {
             <div className="foto-printing items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/magnets.png"
+                  alt="Magneți cu foto"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -683,8 +722,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/logo.png"
+                  alt="Magneți corporativi cu logo"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -693,8 +732,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/puzzle.png"
+                  alt="Foto pe puzzle"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -703,8 +742,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/mouse-pad.png"
+                  alt="Mouse-Pad Personalizat"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -713,8 +752,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/pillow.png"
+                  alt="Perna cu foto"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -723,8 +762,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup1.png"
+                  alt="Cană alba, 300ml"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -733,8 +772,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup2.png"
+                  alt="Cană pentru cafea"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -743,8 +782,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup3.png"
+                  alt="Cană cu interior color"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -753,8 +792,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup4.png"
+                  alt="Cană cu margine și toarta colore"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -763,8 +802,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup5.png"
+                  alt="Cană cu interior și toarta colore"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -773,8 +812,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup6.png"
+                  alt="Cană chameleon"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -782,7 +821,10 @@ export default function Nav() {
                 Cană chameleon
               </Link>
             </div>
-            <Link href="/category_produse/shopping_bags" className="flex items-center">
+            <Link
+              href="/category_produse/shopping_bags"
+              className="flex items-center"
+            >
               Shopping Bags{" "}
               <Image
                 src="/images/nav_arrow.png"
@@ -795,8 +837,8 @@ export default function Nav() {
             <div className="shopping-bags items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/bags.png"
+                  alt="Pungi din Kraft"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -805,8 +847,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/bags2.png"
+                  alt="Pungi cu șireturi standard"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -815,8 +857,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/eco.png"
+                  alt="Torbe-Eco"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -824,7 +866,10 @@ export default function Nav() {
                 Torbe-Eco
               </Link>
             </div>
-            <Link href="/category_produse/pos_materiale" className="flex items-center">
+            <Link
+              href="/category_produse/pos_materiale"
+              className="flex items-center"
+            >
               POS-materiale
               <Image
                 src="/images/nav_arrow.png"
@@ -896,7 +941,10 @@ export default function Nav() {
                 Table-Tent
               </Link>
             </div>
-            <Link href="/category_produse/design_grafic" className="flex items-center">
+            <Link
+              href="/category_produse/design_grafic"
+              className="flex items-center"
+            >
               Design Grafic
               <Image
                 src="/images/nav_arrow.png"
