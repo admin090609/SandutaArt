@@ -991,7 +991,7 @@ export default function Nav() {
         <div className="dropdown">
           <Link
             className="dropbtn font-semibold font-xl mr-8"
-            href="/marketing"
+            href="/category/marketing"
           >
             Materiale Marketing
           </Link>
@@ -1016,7 +1016,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/textile">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/textile">
             Textile
           </Link>
           <div className="dropdown-content items-start">
@@ -1029,7 +1029,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/standuri">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/standuri">
             Standuri Expozitionale
           </Link>
           <div className="dropdown-content items-start">
@@ -1044,7 +1044,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/printuri">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/printuri">
             Printuri Mari
           </Link>
           <div className="dropdown-content items-start">
@@ -1059,7 +1059,7 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/servicii">
+          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/servicii">
             Servicii
           </Link>
           <div className="dropdown-content items-start">
