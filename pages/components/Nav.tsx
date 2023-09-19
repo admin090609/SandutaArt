@@ -567,7 +567,7 @@ export default function Nav() {
               </Link>
             </div>
             <Link
-              href="/category_poduse/etichete_si_autocolante"
+              href="/category_produse/etichete_si_autocolante"
               className="flex items-center"
             >
               Etichete și Autocolante{" "}
