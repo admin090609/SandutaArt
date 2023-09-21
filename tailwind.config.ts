@@ -17,6 +17,9 @@ const config: Config = {
         'cofo-sans': ['CoFo Sans', 'sans'],
         'inter': ['Inter', 'sans']
       },
+      boxShadow: {
+        'custom': 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+      },
     },
   },
   plugins: [],
