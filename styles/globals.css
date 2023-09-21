@@ -14,13 +14,13 @@ body {
 .search_bar {
   padding-left: 50px;
   font-weight: 500;
-  color: black;
+  color: #2D3046;
   font-size: 16px;
 }
 
 .search_bar::placeholder {
   font-weight: 500;
-  color: black;
+  color: #2D3046;
   font-size: 16px;
   text-align: left;
   left: 50px;
