@@ -29,9 +29,9 @@ const contacte = () => {
         </div>
         <div className="mt-20 sm:mt-0 text-center p-20 shadow-custom transform hover:-translate-y-2 transition-all duration-500 ease-in-out">
           <h1 className="text-xl font-semibold mb-7">PROGRAM DE LUCRU</h1>
-          <p className="text-base mb-4 text-[#b1b1b1]">Luni - Vineri</p>
+          <p className="text-base mb-4">Luni - Vineri</p>
           <p className="text-xl mb-4 text-[#D43E48]">09:30 - 18:00</p>
-          <p className="text-base mb-4 text-[#b1b1b1]">Sâmbătă - Duminică</p>
+          <p className="text-base mb-4 ">Sâmbătă - Duminică</p>
           <p className="text-xl text-[#D43E48]">ZI DE ODIHNĂ</p>
         </div>
 
