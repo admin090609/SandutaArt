@@ -33,10 +33,10 @@ export default function Nav() {
               className="w-[35px] h-[35px] ml-3 lg:ml-0"
             />
             <div>
-              <p className="font-semibold text-black text-[18px] leading-5 hidden lg:block">
+              <p className="font-semibold text-[18px] leading-5 hidden lg:block">
                 Ialoveni
               </p>
-              <p className="font-semibold text-black text-[16px] leading-5 hidden lg:block">
+              <p className="font-semibold text-[16px] leading-5 hidden lg:block">
                 Alexandru cel Bun 78/1
               </p>
             </div>
@@ -52,7 +52,7 @@ export default function Nav() {
               height="0"
               className="w-[35px] lg:w-[27px] lg:h-[27px] h-[35px] mr-4 lg:mr-0"
             />
-            <p className="font-semibold text-black text-[24px] hidden lg:block">
+            <p className="font-semibold text-[24px] hidden lg:block">
               069 111 401
             </p>
           </Link>
@@ -202,7 +202,7 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/business-cards.png"
+                  src="/images/carti-de-vizita1.png"
                   alt="Carte de vizită"
                   width="40"
                   height="0"
@@ -212,7 +212,7 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/business-cards.png"
+                  src="/images/carti-de-vizita2.png"
                   alt="Carte de vizită"
                   width="40"
                   height="0"
@@ -222,7 +222,7 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/business-cards.png"
+                  src="/images/carti-de-vizita3.png"
                   alt="Carte de vizită"
                   width="40"
                   height="0"
@@ -232,7 +232,7 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/business-cards.png"
+                  src="/images/carti-de-vizita4.png"
                   alt="Carte de vizită"
                   width="40"
                   height="0"
@@ -242,7 +242,7 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/business-cards.png"
+                  src="/images/carti-de-vizita5.png"
                   alt="Carte de vizită"
                   width="40"
                   height="0"
@@ -882,8 +882,8 @@ export default function Nav() {
             <div className="pos-materiale items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/plexiglass-stand.png"
+                  alt="Suporturi din plexiglas"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -892,8 +892,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/flyer-stand.png"
+                  alt="Suporturi pliante și flyere"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -902,8 +902,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/wood-stand.png"
+                  alt="Suporturi din lemn"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -912,8 +912,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/cup-coaster.png"
+                  alt="Suport Pahare"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -922,8 +922,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/wobbler.png"
+                  alt="Wobblere"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -932,8 +932,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/table-tent.png"
+                  alt="Table-Tent"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -957,8 +957,8 @@ export default function Nav() {
             <div className="design-grafic items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/design-icon.png"
+                  alt="Design tipărituri"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -967,8 +967,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/design-marketing.png"
+                  alt="Design Materiale Marketing"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -977,8 +977,8 @@ export default function Nav() {
               </Link>
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/design-pos.png"
+                  alt="Design POS-Materiale"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"
@@ -1016,7 +1016,10 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/textile">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/category/textile"
+          >
             Textile
           </Link>
           <div className="dropdown-content items-start">
@@ -1029,7 +1032,10 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/standuri">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/category/standuri"
+          >
             Standuri Expozitionale
           </Link>
           <div className="dropdown-content items-start">
@@ -1044,7 +1050,10 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/printuri">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/category/printuri"
+          >
             Printuri Mari
           </Link>
           <div className="dropdown-content items-start">
@@ -1059,7 +1068,10 @@ export default function Nav() {
           </div>
         </div>
         <div className="dropdown">
-          <Link className="dropbtn font-semibold font-xl mr-8" href="/category/servicii">
+          <Link
+            className="dropbtn font-semibold font-xl mr-8"
+            href="/category/servicii"
+          >
             Servicii
           </Link>
           <div className="dropdown-content items-start">
