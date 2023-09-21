@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.cdnfonts.com/css/cofo-sans');
+@import url('https://fonts.cdnfonts.com/css/sofia-pro');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background-color: white;
-  font-family: "Inter", sans-serif;
+  font-family: 'Sofia Pro', sans-serif;
+  color: #2D3046;
 }
 
 .search_bar {
@@ -25,7 +28,7 @@ body {
 }
 
 .swiper-button-next {
-  background: #f3f3f3;
+  background: #ffffff;
   background-image: url(/images/arrow.png);
   background-repeat: no-repeat;
   background-size: 60%;
@@ -41,7 +44,7 @@ body {
 }
 
 .swiper-button-prev {
-  background: #f3f3f3;
+  background: #ffffff;
   background-image: url(/images/prev.png);
   background-repeat: no-repeat;
   background-size: 200%;
