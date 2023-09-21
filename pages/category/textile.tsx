@@ -10,7 +10,7 @@ const textile = () => {
       <div className="product-card">
         <Link href="/marketing">
           <Image
-            src="/images/carti_de_vizita.jpg"
+            src="/images/tshirts.jpg"
             alt=""
             width={100}
             height={100}
@@ -23,7 +23,7 @@ const textile = () => {
       <div className="product-card">
         <Link href="/textile">
           <Image
-            src="/images/tiparituri.jpg"
+            src="/images/polo.jpg"
             alt=""
             width={100}
             height={100}
@@ -36,7 +36,7 @@ const textile = () => {
       <div className="product-card">
         <Link href="/standuri">
           <Image
-            src="/images/brosuri_carti_cataloage.jpg"
+            src="/images/hanorac.jpg"
             alt=""
             width={100}
             height={100}
@@ -49,7 +49,7 @@ const textile = () => {
       <div className="product-card">
         <Link href="/printuri">
           <Image
-            src="/images/carnete.jpg"
+            src="/images/chipiu.jpg"
             alt=""
             width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
             height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
@@ -62,7 +62,7 @@ const textile = () => {
       <div className="product-card">
         <Link href="/printuri">
           <Image
-            src="/images/carnete.jpg"
+            src="/images/torbe.jpg"
             alt=""
             width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
             height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"

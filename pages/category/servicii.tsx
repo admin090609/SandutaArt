@@ -12,7 +12,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/marketing">
           <Image
-            src="/images/carti_de_vizita.jpg"
+            src="/images/transfer_termic_flex.jpg"
             alt=""
             width={100}
             height={100}
@@ -25,7 +25,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/textile">
           <Image
-            src="/images/tiparituri.jpg"
+            src="/images/transfer_chipiu.jpg"
             alt=""
             width={100}
             height={100}
@@ -38,7 +38,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/standuri">
           <Image
-            src="/images/brosuri_carti_cataloage.jpg"
+            src="/images/umbrella.jpg"
             alt=""
             width={100}
             height={100}
@@ -51,7 +51,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/printuri">
           <Image
-            src="/images/carnete.jpg"
+            src="/images/tricoi.jpg"
             alt=""
             width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
             height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
@@ -64,7 +64,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/publicitara">
           <Image
-            src="/images/photo_printing.jpg"
+            src="/images/Lanyard.jpg"
             alt=""
             width={100}
             height={100}
@@ -77,7 +77,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/servicii">
           <Image
-            src="/images/etichete_autocolante.jpg"
+            src="/images/sublimare_layanduri.jpg"
             alt=""
             width={100}
             height={100}
@@ -90,7 +90,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/servicii">
           <Image
-            src="/images/stikere_pvc.jpg"
+            src="/images/tipar_uv.jpg"
             alt=""
             width={100}
             height={100}
@@ -116,7 +116,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/servicii">
           <Image
-            src="/images/shopping_bags.jpg"
+            src="/images/laminare_plic.jpg"
             alt=""
             width={100}
             height={100}
@@ -129,7 +129,7 @@ const servicii = () => {
       <div className="product-card">
         <Link href="/servicii">
           <Image
-            src="/images/shopping_bags.jpg"
+            src="/images/printer.jpg"
             alt=""
             width={100}
             height={100}

@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex sm:flex-row sm:justify-evenly sm:items-start sm:p-7 flex-col justify-center">
+      <div className="flex sm:flex-row sm:justify-evenly sm:items-start sm:p-7 flex-col justify-center text-[#2D3046]">
         <div className="text-center">
           <div className="flex justify-center space-x-1">
             <Link href="/">
@@ -75,7 +75,7 @@ const Footer = () => {
               height="0"
               className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
             />
-            <p className="font-semibold">069 111 401</p>
+            <p className="font-semibold hover:underline">069 111 401</p>
           </Link>
           <Link
             href=""
@@ -88,7 +88,9 @@ const Footer = () => {
               height={0}
               className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
             />
-            <p className="font-semibold">sanduta.art@gmail.com</p>
+            <p className="font-semibold  hover:underline">
+              sanduta.art@gmail.com
+            </p>
           </Link>
           <Link
             href="https://www.google.com/maps/place/Sanduta+Art/@46.946888,28.7743665,15z/data=!4m6!3m5!1s0x40c97f77a5797f33:0x44dde14e3f8587d2!8m2!3d46.946888!4d28.7743665!16s%2Fg%2F11n7k4g97z?hl=en&entry=ttu"
@@ -99,9 +101,11 @@ const Footer = () => {
               alt="Location"
               width="40"
               height="0"
-              className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
+              className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2 "
             />
-              <p className="font-semibold">Ialoveni, Alexandru cel Bun 78/1</p>
+            <p className="font-semibold hover:underline">
+              Ialoveni, Alexandru cel Bun 78/1
+            </p>
           </Link>
         </div>
         <div className="flex flex-col sm:mt-0 mt-12 sm:mb-0 mb-10">
@@ -109,49 +113,49 @@ const Footer = () => {
             Pagini
           </h1>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/produse"
           >
             Produse
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/marketing"
           >
             Materiale Marketing
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/textile"
           >
             Textile
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/standuri"
           >
             Standuri Expozitionale
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/printuri"
           >
             Printuri Mari
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/servicii"
           >
             Servicii
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/contacte"
           >
             Contacte
           </Link>
           <Link
-            className="text-center sm:text-left font-medium text-[16px] mb-1"
+            className="text-center sm:text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
             href="/faq"
           >
             FAQ
@@ -159,40 +163,73 @@ const Footer = () => {
         </div>
         <div className="sm:flex flex-col hidden ">
           <h1 className="text-xl font-bold text-start mb-3">Categorii</h1>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Cărți de vizită
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Tipărituri
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Broșuri, cărți, cataloage
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Carnete
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Etichete și autocolante
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Stichere PVC
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Foto Printing
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Shopping Bags
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             POS-materiale
           </Link>
-          <Link className="text-left font-medium text-[16px] mb-1" href="/">
+          <Link
+            className="text-left font-medium text-[16px] mb-1 hover:text-[#E64657] transform hover:translate-x-1 transition-all duration-150 linear"
+            href="/"
+          >
             Design Grafic
           </Link>
         </div>
       </div>
       <div className="bg-black">
-        <p className="text-white p-3 text-lg font-medium text-right"> Developed by 2Tek</p>
+        <p className="text-white p-3 text-lg font-medium text-right">
+          {" "}
+          Developed by 2Tek
+        </p>
       </div>
     </>
   );

@@ -12,7 +12,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/marketing">
             <Image
-              src="/images/carti_de_vizita.jpg"
+              src="/images/autocolante.jpg"
               alt=""
               width={100}
               height={100}
@@ -25,7 +25,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/textile">
             <Image
-              src="/images/tiparituri.jpg"
+              src="/images/banner.jpg"
               alt=""
               width={100}
               height={100}
@@ -38,7 +38,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/standuri">
             <Image
-              src="/images/brosuri_carti_cataloage.jpg"
+              src="/images/tablouri.jpg"
               alt=""
               width={100}
               height={100}
@@ -51,7 +51,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/printuri">
             <Image
-              src="/images/carnete.jpg"
+              src="/images/placute.jpg"
               alt=""
               width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
               height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
@@ -64,7 +64,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/publicitara">
             <Image
-              src="/images/photo_printing.jpg"
+              src="/images/pl_oficiu.jpg"
               alt=""
               width={100}
               height={100}
@@ -77,7 +77,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/etichete_autocolante.jpg"
+              src="/images/pl_firma.jpg"
               alt=""
               width={100}
               height={100}
@@ -90,7 +90,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/stikere_pvc.jpg"
+              src="/images/panou_info.jpg"
               alt=""
               width={100}
               height={100}
@@ -103,7 +103,7 @@ const printuri = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/shopping_bags.jpg"
+              src="/images/rame.jpg"
               alt=""
               width={100}
               height={100}
