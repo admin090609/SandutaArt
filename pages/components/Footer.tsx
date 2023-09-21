@@ -226,9 +226,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black">
-        <p className="text-white p-3 text-lg font-medium text-right">
+        <p className="text-white mr-10 p-1.5 text-md font-light text-right">
           {" "}
-          Developed by 2Tek
+          Developed by <span className="font-semibold text-2xl">2Tek</span> 
         </p>
       </div>
     </>
