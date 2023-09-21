@@ -882,8 +882,8 @@ export default function Nav() {
             <div className="pos-materiale items-start">
               <Link href="" className="flex items-center">
                 <Image
-                  src="/images/stand.png"
-                  alt="Carte de vizită"
+                  src="/images/plexiglas.png"
+                  alt="Suporturi din plexiglas"
                   width="40"
                   height="0"
                   className="w-[10%] mr-2"

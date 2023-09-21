@@ -6,7 +6,7 @@ const contacte = () => {
   return (
     <>
       <h1 className="text-center font-bold text-3xl">Date de Contact</h1>
-      <div className="mt-20 flex justify-around ">
+      <div className="mt-20 flex justify-around">
         <div>
           <h1 className="text-center text-xl font-semibold mb-7">ADRESA</h1>
           <Link
