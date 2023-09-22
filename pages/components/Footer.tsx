@@ -77,10 +77,7 @@ const Footer = () => {
             />
             <p className="font-semibold hover:underline">069 111 401</p>
           </Link>
-          <Link
-            href=""
-            className="flex items-center justify-center sm:justify-start mb-2"
-          >
+          <div className="flex items-center justify-center sm:justify-start mb-2">
             <Image
               src="/images/gmail.png"
               alt=""
@@ -88,10 +85,8 @@ const Footer = () => {
               height={0}
               className="w-[25px] lg:w-[17px] lg:h-[17px] h-[25px] mr-2"
             />
-            <p className="font-semibold  hover:underline">
-              sanduta.art@gmail.com
-            </p>
-          </Link>
+            <p className="font-semibold ">sanduta.art@gmail.com</p>
+          </div>
           <Link
             href="https://www.google.com/maps/place/Sanduta+Art/@46.946888,28.7743665,15z/data=!4m6!3m5!1s0x40c97f77a5797f33:0x44dde14e3f8587d2!8m2!3d46.946888!4d28.7743665!16s%2Fg%2F11n7k4g97z?hl=en&entry=ttu"
             className="flex items-center justify-center sm:justify-start"
@@ -228,7 +223,7 @@ const Footer = () => {
       <div className="bg-black">
         <p className="text-white mr-10 p-1.5 text-md font-light text-right">
           {" "}
-          Developed by <span className="font-semibold text-2xl">2Tek</span> 
+          Developed by <span className="font-semibold text-2xl">2Tek</span>
         </p>
       </div>
     </>
