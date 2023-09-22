@@ -8,10 +8,12 @@ export default function Home() {
     <>
       <Slider />
       <hr className=" max-w-[84%] sm:max-w-[60%] mt-10 sm:mb-4 border-2 rounded-xl items-center justify-center m-auto border-[#B1B1B1]" />
-      <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10 mb-10 text-[#2D3046]">Produsele Noastre</h1>
+      <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10 mb-10 text-[#2D3046]">
+        Produsele Noastre
+      </h1>
       <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-20 text-[#2D3046]">
         <div className="product-card">
-          <Link href="/marketing">
+          <Link href="/category_produse/carti_de_vizita">
             <Image
               src="/images/materiale_marketing.jpg"
               alt=""
@@ -24,7 +26,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-card">
-          <Link href="/textile">
+          <Link href="/category_produse/textile">
             <Image
               src="/images/textile.jpg"
               alt=""
@@ -37,7 +39,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-card">
-          <Link href="/standuri">
+          <Link href="/category_produse/standuri">
             <Image
               src="/images/standuri.jpg"
               alt=""
@@ -50,12 +52,12 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-card">
-          <Link href="/printuri">
+          <Link href="/category_produse/printuri">
             <Image
               src="/images/printuri_mari.jpg"
               alt=""
-              width={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
-              height={100} // Aici setați dimensiunea dorită pentru "Printuri Mari"
+              width={100}
+              height={100}
               layout="responsive"
               className="rounded-sm"
             />
@@ -63,7 +65,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-card">
-          <Link href="/publicitara">
+          <Link href="/category_produse/publicitara">
             <Image
               src="/images/productie_publicitara.jpg"
               alt=""
@@ -76,7 +78,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="product-card">
-          <Link href="/servicii">
+          <Link href="/category_produse/servicii">
             <Image
               src="/images/servicii.jpg"
               alt=""
@@ -126,7 +128,9 @@ export default function Home() {
       `}</style>
 
       <div className=" max-w-[85%] sm:max-w-[70%] m-auto text-[#2D3046]">
-        <h1 className="text-center sm:text-start font-bold text-3xl mb-5">Despre Noi</h1>
+        <h1 className="text-center sm:text-start font-bold text-3xl mb-5">
+          Despre Noi
+        </h1>
         <p>
           Cu pasiune pentru imprimarea de calitate și o devotare continuă pentru
           satisfacția clienților noștri, Tipografia Sănduța Art s-a dezvoltat ca
