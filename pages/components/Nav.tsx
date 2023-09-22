@@ -9,7 +9,7 @@ export default function Nav() {
   };
   return (
     <>
-      <div className="flex justify-center mt-6 justify-between items-center max-w-[1240px] m-auto">
+      <div className="flex mt-6 justify-between items-center max-w-[1240px] m-auto">
         <div className="flex justify-center items-center">
           <Link href="/">
             <Image
