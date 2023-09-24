@@ -4,7 +4,7 @@ import Image from "next/image";
 const Cart = () => {
   return (
     <>
-      <div className="flex justify-between items-start max-w-[1100px] m-auto">
+      <div className="flex justify-between items-start max-w-[1100px] m-auto mb-20">
         <div className="w-full pr-5">
           <div className="shadow-md mb-4 border border-[#f0f0f0]">
             <h1 className="p-3 font-bold text-2xl text-black">CARTUL MEU</h1>
@@ -134,6 +134,7 @@ const Cart = () => {
           </button>
         </div>
       </div>
+      
     </>
   );
 };
