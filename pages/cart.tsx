@@ -29,7 +29,7 @@ const Cart = () => {
                   $ 249.99
                 </p>
                 <div className="flex justify-between mt-5">
-                  <p className="text-[#2D3046] text-md sm:text-xl">Cantitate</p>
+                  <p className="text-[#2D3046] text-xl">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="">1</option>
@@ -64,7 +64,7 @@ const Cart = () => {
             </div>
           </div>
 
-          <div className="flex justify-between shadow-md mb-2 border border-[#f0f0f0] h-[180px] ">
+          <div className="flex justify-between shadow-md mb-2 border border-[#f0f0f0] h-[180px] rounded-sm">
             <div className=" items-start flex">
               <div>
                 <Image
@@ -82,7 +82,7 @@ const Cart = () => {
                   $ 249.99
                 </p>
                 <div className="flex justify-between mt-5">
-                  <p className="text-[#2D3046] text-md sm:text-xl">Cantitate</p>
+                  <p className="text-[#2D3046] text-xl">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="">1</option>
@@ -116,7 +116,6 @@ const Cart = () => {
               </div>
             </div>
           </div>
-
           <div className="shadow-md border mt-4 border-[#f0f0f0] p-2 text-right">
             <p className="text-[#6F6F6F]">
               SUB-TOTAL{" "}
@@ -126,7 +125,7 @@ const Cart = () => {
             </p>
           </div>
         </div>
-        <div className="shadow-md h-[230px] w-[270px] border sm:mt-0 mt-5 border-[#f0f0f0]">
+        <div className="shadow-md h-[230px] w-[270px] border border-[#f0f0f0]">
           <h1 className="text-2xl px-3 mt-2 font-bold">TOTAL</h1>
           <hr className="w-[89%] m-auto bg-[#6F6F6F] " />
           <p className="text-[#6F6F6F] text-[14px] flex items-center justify-between px-3 mt-2">
@@ -136,7 +135,7 @@ const Cart = () => {
             </span>
           </p>
           <p className="text-[#6F6F6F] text-[14px] px-3 mt-2">Livrarea</p>
-          <button className="bg-[#453CF7] text-white font-medium p-3 rounded-lg mx-auto flex justify-center mt-10 hover:bg-[#3730b9]">
+          <button className="bg-[#453CF7] text-white font-medium p-3 rounded-md mx-auto flex justify-center mt-10 hover:bg-[#3730b9]">
             COMANDĂ
           </button>
         </div>
