@@ -78,7 +78,7 @@ export default function Slider() {
             <div className="w-[100%] lg:w-[70%] text-center">
               <div className="w-[150%] sm:w-[100%] text-center">
                 <Image
-                  src="/images/banner.JPG"
+                  src="/images/banner1.JPG"
                   alt="banner"
                   width={100}
                   height={100}
@@ -95,7 +95,7 @@ export default function Slider() {
             <div className="w-[100%] lg:w-[70%] text-center">
               <div className="w-[150%] sm:w-[100%] text-center">
                 <Image
-                  src="/images/banner.JPG"
+                  src="/images/banner1.JPG"
                   alt="banner"
                   width={100}
                   height={100}
