@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Cărți de vizită"
+    },
+    {
+        "id": 2,
+        "img": "/images/textile.jpg",
+        "denumire": "Tipărituri"
+    },
+    {
+        "id": 3,
+        "img": "/images/standuri.jpg",
+        "denumire": "Broșuri, Cărți, Cataloage"
+    },
+    {
+        "id": 4,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Carnete"
+    },
+    {
+        "id": 5,
+        "img": "/images/servicii.jpg",
+        "denumire": "Etichete și autocolante"
+    },{
+        "id": 6,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Stickere PVC"
+    },
+    {
+        "id": 7,
+        "img": "/images/textile.jpg",
+        "denumire": "Foto Printing"
+    },
+    {
+        "id": 8,
+        "img": "/images/standuri.jpg",
+        "denumire": "Shopping Bags"
+    },
+    {
+        "id": 9,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "POS-Materiale"
+    },
+    {
+        "id": 10,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design Grafic"
+    }
+]

@@ -1,27 +1,147 @@
 [
     {
         "id": 1,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Materiale Marketing"
+        "img": "/images/pixuri_eco.jpg",
+        "denumire": "Pixuri Eco"
     },
     {
         "id": 2,
-        "img": "/images/textile.jpg",
-        "denumire": "Textile"
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Pixuri Metalice"
     },
     {
         "id": 3,
-        "img": "/images/standuri.jpg",
-        "denumire": "Standuri Expozitionale"
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Pixuri din plastic"
     },
     {
         "id": 4,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Printuri Mari"
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Sticle și butelii"
     },
     {
         "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Termosuri și Căni termice"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Căni cu logo"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "USB Flash Drive"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Brelocuri"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Accesorii pentru oficiu"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Landyarduri personalizate"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Ecusoane și accesorii"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Agende 2024"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Personalizare agende"
+    },
+    {
+        "id": 14,
         "img": "/images/servicii.jpg",
-        "denumire": "Servicii"
+        "denumire": "Genți și călătorii"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Umbrele"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Stegulețe și fanioane"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Suvenire și cadouri corporative"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Tricouri simple"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Tricouri Polo"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Hanorace"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Chipiuri"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Torbe Eco"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Autocolante"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Bannere"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Tablouri Canvas și Multicanvas"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Plăcuțe oficiu"
+    },
+    {
+        "id": 27,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Plăcuțe firmă"
+    },
+    {
+        "id": 28,
+        "img": "/images/servicii.jpg",
+        "denumire": "Panouri Informaționale"
+    },
+    {
+        "id": 29,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Rame-click"
     }
 ]
