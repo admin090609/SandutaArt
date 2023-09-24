@@ -6,12 +6,12 @@ const Cart = () => {
     <>
       <div className="flex sm:flex-row flex-col justify-center sm:justify-between items-center sm:items-start max-w-[1100px] m-auto mb-20">
         <div className="w-full sm:pr-5 px-2 sm:px-0">
-          <div className="shadow-md mb-4 border border-[#f0f0f0]">
-            <h1 className="p-3 font-bold sm:text-start text-center  text-2xl text-black">
+          <div className="shadow-md mb-4 border border-[#f0f0f0] rounded-sm">
+            <h1 className="p-3 font-bold sm:text-start text-center text-2xl text-black ml-6 ">
               CARTUL MEU
             </h1>
           </div>
-          <div className="flex justify-between shadow-md mb-2 border border-[#f0f0f0] h-[180px] ">
+          <div className="flex justify-between shadow-md mb-2 border border-[#f0f0f0] h-[180px] rounded-sm">
             <div className=" items-start flex">
               <div>
                 <Image
@@ -21,14 +21,14 @@ const Cart = () => {
                   height={100}
                 />
               </div>
-              <div className="ml-3 mt-2">
+              <div className="ml-3 mt-6">
                 <h1 className="text-[#6F6F6F] sm:text-xl text-sm ">
                   Denumirea la produs
                 </h1>
                 <p className="font-semibold text-xl sm:text-3xl mt-1 text-black">
                   $ 249.99
                 </p>
-                <div className="flex justify-between mt-5">
+                <div className="flex justify-between mt-5 items-center">
                   <p className="text-[#2D3046] text-xl">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
@@ -74,14 +74,14 @@ const Cart = () => {
                   height={100}
                 />
               </div>
-              <div className="ml-3 mt-2">
+              <div className="ml-3 mt-6">
                 <h1 className="text-[#6F6F6F] sm:text-xl text-sm ">
                   Denumirea la produs
                 </h1>
                 <p className="font-semibold text-xl sm:text-3xl mt-1 text-black">
                   $ 249.99
                 </p>
-                <div className="flex justify-between mt-5">
+                <div className="flex justify-between mt-5 items-center">
                   <p className="text-[#2D3046] text-xl">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
@@ -116,16 +116,12 @@ const Cart = () => {
               </div>
             </div>
           </div>
-          <div className="shadow-md border mt-4 border-[#f0f0f0] p-2 text-right">
-            <p className="text-[#6F6F6F]">
-              SUB-TOTAL{" "}
-              <span className="font-bold text-2xl text-black ml-2">
-                $ 309,99
-              </span>
-            </p>
+          <div className="shadow-md border my-4 border-[#f0f0f0] p-2 text-[#6F6F6F] items-center flex justify-end rounded-sm">
+            <p>SUB-TOTAL </p>
+            <span className="font-bold text-2xl text-black ml-2">$ 309,99</span>
           </div>
         </div>
-        <div className="shadow-md h-[230px] w-[270px] border border-[#f0f0f0]">
+        <div className="shadow-md h-[230px] w-[270px] border border-[#f0f0f0] rounded-sm">
           <h1 className="text-2xl px-3 mt-2 font-bold">TOTAL</h1>
           <hr className="w-[89%] m-auto bg-[#6F6F6F] " />
           <p className="text-[#6F6F6F] text-[14px] flex items-center justify-between px-3 mt-2">
