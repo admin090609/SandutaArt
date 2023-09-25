@@ -7,7 +7,7 @@ const Cart = () => {
       <div className="flex sm:flex-row flex-col justify-center sm:justify-between items-center sm:items-start max-w-[1100px] m-auto mb-20">
         <div className="w-full sm:pr-5 px-2 sm:px-0">
           <div className="shadow-md mb-4 border border-[#f0f0f0] rounded-sm">
-            <h1 className="p-3 font-bold sm:text-start text-center text-2xl text-black ml-6 ">
+            <h1 className="p-3 font-bold sm:text-start text-center text-2xl text-black ml-0 sm:ml-6 ">
               CARTUL MEU
             </h1>
           </div>

@@ -103,7 +103,7 @@ const marketing = () => {
         <div className="product-card">
           <Link href="/servicii">
             <Image
-              src="/images/briloc.jpg"
+              src="/images/brelocuri.jpg"
               alt=""
               width={100}
               height={100}
