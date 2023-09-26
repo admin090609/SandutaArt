@@ -29,7 +29,7 @@ const Cart = () => {
                   $ 249.99
                 </p>
                 <div className="flex justify-between mt-5 items-center">
-                  <p className="text-[#2D3046] text-xl">Cantitate</p>
+                  <p className="text-[#2D3046] text-xl  mr-1 sm:mr-0">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="">1</option>
@@ -82,7 +82,7 @@ const Cart = () => {
                   $ 249.99
                 </p>
                 <div className="flex justify-between mt-5 items-center">
-                  <p className="text-[#2D3046] text-xl">Cantitate</p>
+                  <p className="text-[#2D3046] text-xl mr-1 sm:mr-0">Cantitate</p>
                   <div className="relative inline-flex">
                     <select className="appearance-none bg-white border border-gray-300 text-gray-600 sm:py-2 sm:px-4 pr-5 px-1 sm:pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                       <option value="">1</option>
