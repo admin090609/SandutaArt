@@ -127,20 +127,25 @@
     {
         "id": 26,
         "img": "/images/standuri.jpg",
-        "denumire": "Plăcuțe oficiu"
+        "denumire": "Plăcuțe personalizate"
     },
     {
         "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Plăcuțe oficiu"
+    },
+    {
+        "id": 28,
         "img": "/images/printuri_mari.jpg",
         "denumire": "Plăcuțe firmă"
     },
     {
-        "id": 28,
+        "id": 29,
         "img": "/images/servicii.jpg",
         "denumire": "Panouri Informaționale"
     },
     {
-        "id": 29,
+        "id": 30,
         "img": "/images/printuri_mari.jpg",
         "denumire": "Rame-click"
     }

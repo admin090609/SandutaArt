@@ -11,7 +11,7 @@ export default function Home() {
       <h1 className="text-center font-bold text-3xl mt-10 sm:mt-10 mb-10 text-[#2D3046]">
         Produsele Noastre
       </h1>
-      <div className="flex justify-center max-w-[960px] mx-auto flex-wrap mb-20 text-[#2D3046]">
+      <div className="flex justify-center max-w-[840px] mx-auto flex-wrap mb-20 text-[#2D3046]">
         <div className="product-card">
           <Link href="/category_produse/carti_de_vizita">
             <Image
@@ -62,19 +62,6 @@ export default function Home() {
               className="rounded-sm"
             />
             <p>Printuri Mari</p>
-          </Link>
-        </div>
-        <div className="product-card">
-          <Link href="/category_produse/publicitara">
-            <Image
-              src="/images/productie_publicitara.jpg"
-              alt=""
-              width={100}
-              height={100}
-              layout="responsive"
-              className="rounded-sm"
-            />
-            <p>Productie Publicitara</p>
           </Link>
         </div>
         <div className="product-card">

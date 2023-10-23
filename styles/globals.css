@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -40,12 +40,9 @@ body {
   background-position: center;
   padding: 20px;
   border-radius: 50%;
-  /* Pentru a face butoanele rotunde */
   border: 3.5px solid #dddddd;
   transform: translateY(-50%);
-  /* Folosim translateY pentru a centra butoanele vertical */
   margin-top: 0;
-  /* Eliminăm marginul de sus pentru a păstra butoanele la aceeași înălțime */
 }
 
 .swiper-button-prev {
@@ -56,12 +53,9 @@ body {
   background-position: center;
   padding: 20px;
   border-radius: 50%;
-  /* Pentru a face butoanele rotunde */
   border: 3.5px solid #dddddd;
   transform: translateY(-50%);
-  /* Folosim translateY pentru a centra butoanele vertical */
   margin-top: 0;
-  /* Eliminăm marginul de sus pentru a păstra butoanele la aceeași înălțime */
 }
 
 .swiper-button-next::after {
@@ -74,12 +68,10 @@ body {
 
 .swiper-button-next {
   transform: translateX(-270%);
-  /* Mușcăm butonul "next" la stânga pentru a lăsa spațiu între ele */
 }
 
 .swiper-button-prev {
   transform: translateX(270%);
-  /* Mușcăm butonul "prev" la dreapta pentru a lăsa spațiu între ele */
 }
 
 .mySwiper .swiper-pagination-bullet {

@@ -1,51 +1,139 @@
 [
     {
         "id": 1,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Cărți de vizită"
+        "img": "/images/pixuri_eco.jpg",
+        "denumire": "Flyere"
     },
     {
         "id": 2,
-        "img": "/images/textile.jpg",
-        "denumire": "Tipărituri"
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Postere"
     },
     {
         "id": 3,
-        "img": "/images/standuri.jpg",
-        "denumire": "Broșuri, Cărți, Cataloage"
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Pliante și Booklete"
     },
     {
         "id": 4,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Carnete"
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Mape de prezentare"
     },
     {
         "id": 5,
-        "img": "/images/servicii.jpg",
-        "denumire": "Etichete și autocolante"
-    },{
+        "img": "/images/termosuri.jpg",
+        "denumire": "Foi cu antet"
+    },
+    {
         "id": 6,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Stickere PVC"
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Diplome și certificate"
     },
     {
         "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Foto Printing"
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Invitații și Felicitări"
     },
     {
         "id": 8,
-        "img": "/images/standuri.jpg",
-        "denumire": "Shopping Bags"
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Plicuri personalizate"
     },
     {
         "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "POS-Materiale"
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Bilete"
     },
     {
         "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Semne de carte"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Meniuri"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Calendare trimestriale"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Calendare de perete"
+    },
+    {
+        "id": 14,
         "img": "/images/servicii.jpg",
-        "denumire": "Design Grafic"
+        "denumire": "Calendare de birou"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Calendare de buzunar"
+    },
+
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Pungi din kraft"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Pungi cu șireturi standard"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Torbe-eco"
+    },
+    
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Suporturi din plexiglas"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Suporturi pliante si flyere"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Suporturi din lemn"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Suport pahare"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Wobblere"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Table-tent"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design tiparituri"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design materiale marketing"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design POS-materiale"
     }
 ]

@@ -1,0 +1,97 @@
+[
+    {
+        "id": 5,
+        "img": "/images/servicii.jpg",
+        "denumire": "Roll-Up Banner Standard"
+    },
+    {
+        "id": 6,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Roll-Up Banner Premium"
+    },
+    {
+        "id": 7,
+        "img": "/images/textile.jpg",
+        "denumire": "Roll-Up Banner cu 2 fețe"
+    },
+    {
+        "id": 8,
+        "img": "/images/standuri.jpg",
+        "denumire": "Totem textil"
+    },
+    {
+        "id": 9,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "X-Banner Econom"
+    },
+    {
+        "id": 10,
+        "img": "/images/servicii.jpg",
+        "denumire": "X-Banner Premium"
+    },
+    {
+        "id": 2,
+        "img": "/images/textile.jpg",
+        "denumire": "People Stopper (A-Stand)"
+    },
+    {
+        "id": 3,
+        "img": "/images/standuri.jpg",
+        "denumire": "People stopper Double Frame"
+    },
+    {
+        "id": 7,
+        "img": "/images/textile.jpg",
+        "denumire": "Plăcuțe personalizate"
+    },
+    {
+        "id": 5,
+        "img": "/images/servicii.jpg",
+        "denumire": "Transfer termic cu folie flex"
+    },
+    {
+        "id": 6,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Transfer termic pe chipiuri"
+    },
+    {
+        "id": 7,
+        "img": "/images/textile.jpg",
+        "denumire": "Transfer termic pe umbrele"
+    },
+    {
+        "id": 8,
+        "img": "/images/standuri.jpg",
+        "denumire": "Sublimare pe textil"
+    },
+    {
+        "id": 9,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Transfer termic pe landyarduri"
+    },
+    {
+        "id": 10,
+        "img": "/images/servicii.jpg",
+        "denumire": "Sublimare pe landyarduri"
+    },
+    {
+        "id": 9,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Tipar UV pe suvenire"
+    },
+    {
+        "id": 10,
+        "img": "/images/servicii.jpg",
+        "denumire": "Laminare plic"
+    },
+    {
+        "id": 4,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Laminare în rolă"
+    },
+    {
+        "id": 5,
+        "img": "/images/servicii.jpg",
+        "denumire": "Scanner A4/A3"
+    }
+]
