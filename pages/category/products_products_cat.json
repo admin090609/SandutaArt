@@ -328,42 +328,548 @@
     {
         "id": 29,
         "img": "/images/servicii.jpg",
-        "denumire": "Plicuri standard printate digital"
+        "denumire": "L Display din plexiglass"
     },
     {
         "id": 30,
         "img": "/images/printuri_mari.jpg",
-        "denumire": "Plicuri standard printate serigrafic"
+        "denumire": "Menu T - Holder"
     },
     {
         "id": 23,
         "img": "/images/printuri_mari.jpg",
-        "denumire": "Plicuri standard fara tipar"
+        "denumire": "Menu Holder Piramida"
     },
     {
         "id": 24,
         "img": "/images/servicii.jpg",
-        "denumire": "Plicuri din cartoane speciale fără tipar"
+        "denumire": "Urna Transparenta din Plexiglas"
     },
     {
         "id": 25,
         "img": "/images/materiale_marketing.jpg",
-        "denumire": "Plicuri din cartoane speciale tiparite digital"
+        "denumire": "Suport Carti de Vizita"
     },
+
     {
         "id": 26,
         "img": "/images/standuri.jpg",
-        "denumire": "Plicuri din cartoane speciale printate serigrafic"
+        "denumire": "Suport pliante pentru perete"
     },
     {
         "id": 27,
         "img": "/images/standuri.jpg",
-        "denumire": "Plicuri din cartoane speciale cu 3D folie"
+        "denumire": "Suport pliante de birou"
     },
     
     {
         "id": 28,
         "img": "/images/printuri_mari.jpg",
-        "denumire": "Carti postale"
+        "denumire": "Wooden Menu Holder cu Buzunar din PET"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Wooden Menu Holder cu Buzunar din Chalkboard"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Pyramid Wooden Menu Holder cu Buzunar din PET"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Pyramid Wooden Menu Holder cu Buzunar din Chalkboard"
+    },
+
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Suport pahare diametrul 100 mm"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Suport pahare 100x100mm"
+    },
+
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Wobblere rotunde"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Wobblere dreptunghiulare"
+    },
+
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Table-tent \"Casuta orizontala\""
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Table-tent \"Casuta verticala\""
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Table-tent \"Prisma\""
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Table-tent pentru suporturi"
+    },
+    {
+        "COMMENT": "Finish POS- Start Design"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Design logo"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design carti de vizita"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design flyere (A4 / A5 / A6 / Euro)"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Design pliante (A3 / A4 / A5 / A6)"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design foi cu antet"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design postere A4 - A3"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design postere A2 - A0"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Design bilet"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design diplome si certificate"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design semne de carte"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design mape de prezentare"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design mapa stantata"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design carnet simplu"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design carnet cu interior tiparit"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design felicitare simpla"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design felicitare si invitatie pliata"
+    },
+
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design carte postala"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design brosura capsata"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design brosura prinsa cu spirala"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design carte"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design plic standard"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design plic stantat"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design calendar \"Econom\""
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design calendar trimestrial"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Design calendar de perete 13 foi"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Design calendar \"Casuta\""
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Design calendar de masa cu 7 foi"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Design calendar de masa 13 foi"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Design calendar de buzunar"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Design sticker"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Design eticheta standard"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Design eticheta pliata"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Design eticheta stantata"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Design formular tipizat"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Design foaie autocopianta"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Design legitimatie"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design registru de evidenta"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design voucher"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Design meniu pliat"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design meniu (foaie de tava)"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design meniu pe o foaie"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design cutie cadou"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Design cutie medicamente"
+    },
+
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design logo"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design blocuri cu notite"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design CD/DVD printate"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design CD/DVD coperta"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design ecuson"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design stegulet din hartie"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design stegulet din panza"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design fanion"
+    },
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design card de fidelitate"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design placheta din lemn"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design cana (sublimare)"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design cana dubla (sublimare)"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design cana (decalcomanie)"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design breloc"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design ceas cu logo"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design magnet cu logo"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design mouse pad"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design perna"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design puzzle"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design medalie"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design insigna"
+    },
+
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design logo"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design floor sticker"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design roll up"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design X-Banner"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design people stopper"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design placuta oficiu (oracal)"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Design placuta oficiu (gravura)"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design placuta oficiu (elemente in volum)"
+    },
+
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Design placuta firma (oracal)"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design placuta firma (gravura)"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Design placuta firma (elemente in volum)"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Design panou informational"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Design panou informational cu buzunare"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Design steag mare din panza"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Design steag pero din panza"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Design pop-up banner"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Design reclama neluminoasa"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Design caseta luminoasa"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Design litere volumetrice"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Design cort personalizat"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Design masa promo"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Design fotowall"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Design door hanger"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Design table-tent"
     }
 ]
