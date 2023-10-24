@@ -1,0 +1,147 @@
+[
+    {
+        "id": 1,
+        "img": "/images/pixuri_eco.jpg",
+        "denumire": "Carti de vizita standard"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Carti de vizita pe carton special"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Carti de vizita imprimate UV"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Carti de vizita pe hartie din kraft"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Carti de vizita din plastic"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Carti de vizita econom"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Suport Carti de Vizita cu magnet"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Suport Carti de Vizita"
+    },
+
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Brosuri prinse cu capse"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Brosuri prinse cu spira metalica"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Carti cu coperta moale"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Carti cu coperta tare"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Eurocopertare"
+    },
+
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Carnete simple prinse cu spira"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Carnete cu interior color prinse cu spira"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Carnete simple prinse cu clei"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Carnete cu interior color prinse cu clei"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Carnete cu coperta tare prinse cu spira"
+    },
+
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Stickere rotunde"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Stickere patrate"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Stickere dreptunghiulare"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Stickere A-size"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Etichete din carton standard"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Etichete din carton pliate"
+    },
+
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Etichete din carton special"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Etichete din carton stantate"
+    },
+
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Stickere PVC taiate complet"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Stickere PVC decupate pe contur"
+    }
+]

@@ -1,97 +1,971 @@
 [
     {
-        "id": 5,
-        "img": "/images/servicii.jpg",
-        "denumire": "Roll-Up Banner Standard"
-    },
-    {
-        "id": 6,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Roll-Up Banner Premium"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Roll-Up Banner cu 2 fețe"
-    },
-    {
-        "id": 8,
-        "img": "/images/standuri.jpg",
-        "denumire": "Totem textil"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "X-Banner Econom"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "X-Banner Premium"
+        "id": 1,
+        "img": "/images/pixuri_eco.jpg",
+        "denumire": "Paper ball pen POLI"
     },
     {
         "id": 2,
-        "img": "/images/textile.jpg",
-        "denumire": "People Stopper (A-Stand)"
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Paper ball pen TIKO"
     },
     {
         "id": 3,
-        "img": "/images/standuri.jpg",
-        "denumire": "People stopper Double Frame"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Plăcuțe personalizate"
-    },
-    {
-        "id": 5,
-        "img": "/images/servicii.jpg",
-        "denumire": "Transfer termic cu folie flex"
-    },
-    {
-        "id": 6,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Transfer termic pe chipiuri"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Transfer termic pe umbrele"
-    },
-    {
-        "id": 8,
-        "img": "/images/standuri.jpg",
-        "denumire": "Sublimare pe textil"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Transfer termic pe landyarduri"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "Sublimare pe landyarduri"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Tipar UV pe suvenire"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "Laminare plic"
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Paperpen Bristol"
     },
     {
         "id": 4,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Laminare în rolă"
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Push button ball Pecas"
     },
     {
         "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Ball pen REVI"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "TITANIUM BAMBOO"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "BALZAC BAMBOO"
+    },
+
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "BERN - Metal ball pen"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "OGGI - Metal ball pen"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "OGGI Slim - Metal ball pen"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Slim metal ballpen with touch"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "ARMADA GOLD - Metal \"touch\" ball pen"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Touch pen BIANCO"
+    },
+    {
+        "id": 14,
         "img": "/images/servicii.jpg",
-        "denumire": "Scanner A4/A3"
+        "denumire": "Touch pen NIRO"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Touch pen PRIM"
+    },
+
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "BASIC"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Plastic ball pen with metal clip"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "ZIGI"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "LIKKA"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Schneider K15"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Schneider Office"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Wumpy"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Leopard"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Viva Pens"
+    },
+
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "UTAH RPET Drinking bottle in RPET, 500 ml"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Recycled PET bottle, 500ml"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Drinking bottle made of glass, 500ml"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "PRIMAVERA, sports bottle with neoprene pouch, 500ml"
+    },
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Sports bottle H2O TRITAN 550 ml"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "CAMPUS - Sports bottle, 400 ml"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "CAMPUS MAXI - Sports bottle, 750 ml"
+    },
+
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Stainless steel travel mug, 400ml"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Stainless steel isolating flask Cleveland"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Termos Albuquerque 500 ml"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "ELEMENT Vacuum insulated flask 500 ml"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "FLUID Vacuum insulated bottle 500 ml"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Thermo mug Zadar"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Vacuum flask BUCO 500 ml"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Stainless steel mug Bamboogarden 400 ml"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Travel mug STAR 350 ml"
+    },
+
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "LUCIA - Fine stoneware mug, 300 ml"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "LILLY - Fine stoneware mug, 300 ml"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "LILLY BIANCO - Fine stoneware mug, 300 ml"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "BLACK BERRY - Stoneware mug, 300 ml"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "SOFT BERRY - Stoneware mug, 300 ml"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "LUCIA SOFT - Stoneware mug, 300 ml"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Stoneware mug CORTADO 400 ml"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Stoneware mug CORTADO 400 ml"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Ceramic coloured mug COLOUR TRENT 290 ml"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "MOMENTO - Fine stoneware cappuccino cup and saucer, 150 ml"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Cana alba, 300ml"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Cana pentru cafea"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Cana cu interior color"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Cana cu margine si toarta colore"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Cana cu interior si toarta colore"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Cana chameleon"
+    },
+
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Bamboo USB flash drive STALK 16 GB"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "ECHO - USB Flash Memory, 32GB"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "CYPHER USB Flash memory, 32GB"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "SMART SILVER - USB Flash memory, 64GB"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "PATCH 3.0 - USB flash memory, 32GB"
+    },
+
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Keychain 4 in 1 BOTTIGA"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Keychain 3 in 1 LON"
+    },
+
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Keychain PENDE"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "BENDIGO"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "COLOUR TWICES"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "BALLARAT"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "IMBA"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Metal keyring with bottle opener"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Metal keyring"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Bag hanger LADY"
+    },
+
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Bamboo phone holder TILE"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Desk organizer PELI"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Sticky notes PIRI"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "RING PRO - Mobile phone holder"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Business card holder GEMINI"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Blocuri cu notite tiparite alb-negru"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Blocuri cu notite tiparite color"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Insigne rotunde 25 mm"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Insigne rotunde 37 mm"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Insigne rotunde 58 mm"
+    },
+
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "35.024 STEP-UP Lanyard cu carabina detasabila"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "35.026 LANY 20 Lanyard cu carabina"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "MO9852 Zip Lanyard cu suport retractabil"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "BADGY"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "BADGO"
+    },
+
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Ecusoane din carton laminat"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Ecusoane si snururi"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Buzunare pentru ecusoane"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Ecusoane Standard"
+    },
+
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "Agende nedatate A5 VITAL"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende nedatate A5 ARCONOT"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende nedatate A5 MOLI"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Agenda nedatata A5 BLAMA"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Agenda nedatata A5 NANTES"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Agenda nedatata A5 BELLIS"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Agende nedatate SOFT 13x21cm Classic"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende nedatate 13x21cm cu elastic Classic"
+    },
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Agende nedatate 13x21cm PEN Classic"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende nedatate A5 Flexible IDE'E"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende nedatate A5 Pen Loop IDE'E"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Agende nedatate A5 IDE'E"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Agende nedatate B5 IDE'E Premium"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Agende datate A5 2024 IDE'E"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Agende saptamanale A4 2024 IDEE"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Agende datate A5 2024 Classic"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Agende saptamanale A4 2024 Classic"
+    },
+
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Tipar pe agende A6"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Tipar pe agende A5"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Tipar pe agende A4"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Embosare pe agende"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Serigrafie pe Agende"
+    },
+
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Rucsac LEOPOLDSBURG, 32,5x43cm"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "SHOOP Drawstring bag, 36x40cm"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "ROBIN - Backpack"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "BET - Backpack"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "NED - Backpack"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Backpack CASUAL"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "WELTER - Backpack"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "LEO - Business backpack"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Backpack"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Laptop backpack"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Polyester backpack"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "CHESTER - Business backpack"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Anti-theft backpack"
+    },
+    {
+        "id": 21,
+        "img": "/images/standuri.jpg",
+        "denumire": "STOCKHOLM BAG. 15 Inch computer backpack"
+    },
+    {
+        "id": 22,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "BROKER - Business backpack"
+    },
+
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Roly Umbrella Fargo"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Umbrella, with pushbutton"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "STRATO Foldable windproof umbrella with auto open/close function"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "SMITH - Foldable windproof umbrella with auto open/close function"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "ALLEGRO - Foldable windproof umbrella with auto open/close function"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Umbrella EVITA with 16 ribs"
+    },
+    {
+        "id": 29,
+        "img": "/images/servicii.jpg",
+        "denumire": "Umbrella REVERS"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Storm proof umbrella"
+    },
+
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Stegulete din hartie"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Stegulete din panza"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Stegulete din atlas"
+    },
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Fanioane din atlas"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Accesorii stegulete si fanioane"
+    },
+
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Plachete cu suport din lemn"
+    },
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Pungi din kraft natural"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Pungi din kraft albit"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "Pungi din kraft color"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Pungi din hârtie verticale"
+    },
+
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Roly Atomic 150"
+    },
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Roly Jamaica"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Roly Dogo Premium"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Roly Beagle"
+    },
+
+    {
+        "id": 30,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "GILDAN PREMIUM COTTON ADULT POLO"
+    },
+    {
+        "id": 23,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "GILDAN PREMIUM COTTON LADIES' POLO"
+    },
+    {
+        "id": 24,
+        "img": "/images/servicii.jpg",
+        "denumire": "ROLY POLO STAR"
+    },
+    {
+        "id": 25,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "ROLY POLO STAR WOMAN"
+    },
+
+    {
+        "id": 26,
+        "img": "/images/standuri.jpg",
+        "denumire": "Roly Sweatshirt Capucha"
+    },
+
+    {
+        "id": 27,
+        "img": "/images/standuri.jpg",
+        "denumire": "Roly Sweatshirt Montblanc"
+    },
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Roly Sweatshirt Clasica"
+    },
+
+    {
+        "id": 28,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Chipiu Roly Eris"
+    },
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Chipiu Roly Panel"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Chipiu Runner"
+    },
+
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Cottonel Plus 140g"
+    },
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Cottonel Color Plus 140g"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Cottonel Plus Plus 180g"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Cottonel Color Plus Plus 180g"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Floria Natural 160g"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Floria Natural 200g"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Natural Moon 220g"
+    },
+
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Folii adezive pentru suprafete plane"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Autocolante pentru vitrine"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Cutter plotter - Autocolant taiat"
+    },
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Print Autocolant Floor Graphics"
+    },
+
+    {
+        "id": 2,
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Bannere Frontlit"
+    },
+    {
+        "id": 3,
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Bannere Mesh"
+    },
+    {
+        "id": 4,
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Bannere Blockout"
+    },
+
+    {
+        "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "Tablouri pe canvas"
+    },
+
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "Placuta din PVC si Oracal tiparit"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "Placuta din PVC si Oracal decupat"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "Placuta din PVC gravat"
+    },
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Placuta din PVC, Oracal tiparit si elemente in volum"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Placuta din PVC gravat si elemente in volum"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Placuta din Sticla organica si Oracal decupat"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Placuta din PVC, Oracal tiparit si buzunar"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Placuta din metal"
+    },
+
+    {
+        "id": 14,
+        "img": "/images/servicii.jpg",
+        "denumire": "Panouri informationale cu buzunare"
+    },
+
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Rama-click A0"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Rama-click A1"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
+        "denumire": "Rama-click A2"
+    },
+    {
+        "id": 19,
+        "img": "/images/servicii.jpg",
+        "denumire": "Rama-click A3"
+    },
+    {
+        "id": 20,
+        "img": "/images/textile.jpg",
+        "denumire": "Rama-click A4"
     }
 ]

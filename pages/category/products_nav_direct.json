@@ -1,97 +1,93 @@
 [
     {
-        "id": 5,
-        "img": "/images/servicii.jpg",
-        "denumire": "Roll-Up Banner Standard"
-    },
-    {
-        "id": 6,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Roll-Up Banner Premium"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Roll-Up Banner cu 2 fețe"
-    },
-    {
-        "id": 8,
-        "img": "/images/standuri.jpg",
-        "denumire": "Totem textil"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "X-Banner Econom"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "X-Banner Premium"
+        "id": 1,
+        "img": "/images/pixuri_eco.jpg",
+        "denumire": "Roll-up Banner Standard"
     },
     {
         "id": 2,
-        "img": "/images/textile.jpg",
-        "denumire": "People Stopper (A-Stand)"
+        "img": "/images/pixuri_metalice.jpg",
+        "denumire": "Roll-up Banner Premium"
     },
     {
         "id": 3,
-        "img": "/images/standuri.jpg",
-        "denumire": "People stopper Double Frame"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Plăcuțe personalizate"
-    },
-    {
-        "id": 5,
-        "img": "/images/servicii.jpg",
-        "denumire": "Transfer termic cu folie flex"
-    },
-    {
-        "id": 6,
-        "img": "/images/materiale_marketing.jpg",
-        "denumire": "Transfer termic pe chipiuri"
-    },
-    {
-        "id": 7,
-        "img": "/images/textile.jpg",
-        "denumire": "Transfer termic pe umbrele"
-    },
-    {
-        "id": 8,
-        "img": "/images/standuri.jpg",
-        "denumire": "Sublimare pe textil"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Transfer termic pe landyarduri"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "Sublimare pe landyarduri"
-    },
-    {
-        "id": 9,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Tipar UV pe suvenire"
-    },
-    {
-        "id": 10,
-        "img": "/images/servicii.jpg",
-        "denumire": "Laminare plic"
+        "img": "/images/pixuri_plastic.jpg",
+        "denumire": "Roll-up Banner cu 2 Fete"
     },
     {
         "id": 4,
-        "img": "/images/printuri_mari.jpg",
-        "denumire": "Laminare în rolă"
+        "img": "/images/sticle_butelii.jpg",
+        "denumire": "Totem textil"
     },
     {
         "id": 5,
+        "img": "/images/termosuri.jpg",
+        "denumire": "X-Banner Econom"
+    },
+    {
+        "id": 6,
+        "img": "/images/cani_cu_logo.jpg",
+        "denumire": "X-Banner Premium"
+    },
+    {
+        "id": 7,
+        "img": "/images/USB_Flash_Drive.jpg",
+        "denumire": "People stopper (A-Stand)"
+    },
+    {
+        "id": 8,
+        "img": "/images/brelocuri.jpg",
+        "denumire": "People stopper Double Frame"
+    },
+
+    {
+        "id": 9,
+        "img": "/images/accesorii_lucru.jpg",
+        "denumire": "Transfer termic cu folie flex"
+    },
+    {
+        "id": 10,
+        "img": "/images/lanyards.jpg",
+        "denumire": "Transfer termic pe chipiuri"
+    },
+    {
+        "id": 11,
+        "img": "/images/ecusoane.jpg",
+        "denumire": "Transfer termic pe umbrele"
+    },
+    {
+        "id": 12,
+        "img": "/images/agenda.jpg",
+        "denumire": "Sublimare pe textil"
+    },
+    {
+        "id": 13,
+        "img": "/images/agenda.jpg",
+        "denumire": "Transfer termic pe lanyarduri"
+    },
+    {
+        "id": 14,
         "img": "/images/servicii.jpg",
+        "denumire": "Sublimare pe lanyarduri"
+    },
+    {
+        "id": 15,
+        "img": "/images/materiale_marketing.jpg",
+        "denumire": "Tipar UV pe suvenire"
+    },
+    {
+        "id": 16,
+        "img": "/images/textile.jpg",
+        "denumire": "Laminare plic"
+    },
+    {
+        "id": 17,
+        "img": "/images/standuri.jpg",
+        "denumire": "Laminare in rola"
+    },
+    {
+        "id": 18,
+        "img": "/images/printuri_mari.jpg",
         "denumire": "Scanner A4/A3"
     }
 ]
