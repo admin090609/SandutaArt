@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url('https://fonts.cdnfonts.com/css/cofo-sans');
-@import url('https://fonts.cdnfonts.com/css/sofia-pro');
+@import url("https://fonts.cdnfonts.com/css/cofo-sans");
+@import url("https://fonts.cdnfonts.com/css/sofia-pro");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,20 +12,24 @@
 
 body {
   background-color: white;
-  font-family: 'Sofia Pro', sans-serif;
-  color: #2D3046;
+  font-family: "Sofia Pro", sans-serif;
+  color: #2d3046;
+}
+
+input[type=text]:focus{
+  outline: #ccc;
 }
 
 .search_bar {
   padding-left: 50px;
   font-weight: 500;
-  color: #2D3046;
+  color: #2d3046;
   font-size: 16px;
 }
 
 .search_bar::placeholder {
   font-weight: 500;
-  color: #2D3046;
+  color: #2d3046;
   font-size: 16px;
   text-align: left;
   left: 50px;
@@ -82,7 +86,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     background-image: none;
@@ -97,7 +100,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-
   .swiper-button-next,
   .swiper-button-prev {
     transform: translateX(0);
@@ -143,29 +145,29 @@ body {
   width: 75%;
 }
 
-#checkbox:checked+.toggle .bars {
+#checkbox:checked + .toggle .bars {
   position: absolute;
   transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle #bar2 {
+#checkbox:checked + .toggle #bar2 {
   transform: scaleX(0);
   transition-duration: 0.1s;
 }
 
-#checkbox:checked+.toggle #bar1 {
+#checkbox:checked + .toggle #bar1 {
   width: 100%;
   transform: rotate(45deg);
   transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle #bar3 {
+#checkbox:checked + .toggle #bar3 {
   width: 100%;
   transform: rotate(-45deg);
   transition-duration: 0.5s;
 }
 
-#checkbox:checked+.toggle {
+#checkbox:checked + .toggle {
   transition-duration: 0.5s;
   transform: rotate(180deg);
 }
@@ -518,7 +520,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(1):hover~.carti-de-vizita,
+.dropdown-content a:nth-child(1):hover ~ .carti-de-vizita,
 .carti-de-vizita:hover {
   display: flex;
   flex-direction: column;
@@ -526,7 +528,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(3):hover~.tiparituri,
+.dropdown-content a:nth-child(3):hover ~ .tiparituri,
 .tiparituri:hover {
   display: flex;
   flex-direction: column;
@@ -534,7 +536,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(5):hover~.brosuri-carti-cataloage,
+.dropdown-content a:nth-child(5):hover ~ .brosuri-carti-cataloage,
 .brosuri-carti-cataloage:hover {
   display: flex;
   flex-direction: column;
@@ -542,7 +544,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(7):hover~.carnete,
+.dropdown-content a:nth-child(7):hover ~ .carnete,
 .carnete:hover {
   display: flex;
   flex-direction: column;
@@ -550,7 +552,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(9):hover~.etichete-autocolante,
+.dropdown-content a:nth-child(9):hover ~ .etichete-autocolante,
 .etichete-autocolante:hover {
   display: flex;
   flex-direction: column;
@@ -558,7 +560,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(11):hover~.stickere,
+.dropdown-content a:nth-child(11):hover ~ .stickere,
 .stickere:hover {
   display: flex;
   flex-direction: column;
@@ -566,7 +568,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(13):hover~.foto-printing,
+.dropdown-content a:nth-child(13):hover ~ .foto-printing,
 .foto-printing:hover {
   display: flex;
   flex-direction: column;
@@ -574,7 +576,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(15):hover~.shopping-bags,
+.dropdown-content a:nth-child(15):hover ~ .shopping-bags,
 .shopping-bags:hover {
   display: flex;
   flex-direction: column;
@@ -582,7 +584,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(17):hover~.pos-materiale,
+.dropdown-content a:nth-child(17):hover ~ .pos-materiale,
 .pos-materiale:hover {
   display: flex;
   flex-direction: column;
@@ -590,7 +592,7 @@ body {
   transform: scaleY(1);
 }
 
-.dropdown-content a:nth-child(19):hover~.design-grafic,
+.dropdown-content a:nth-child(19):hover ~ .design-grafic,
 .design-grafic:hover {
   display: flex;
   flex-direction: column;
